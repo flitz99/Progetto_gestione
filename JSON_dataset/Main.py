@@ -2,6 +2,7 @@ import json
 import csv
 from recensione import *
 
+
 def start(file_path, lista):
     '''
     :param file_path:  path del file json da leggere
@@ -17,35 +18,40 @@ def start(file_path, lista):
 
 
 def asin_to_title(asin, lista):
+
     for elemento in lista:
 
         if elemento["asin"] == asin:
-            return elemento["title"] , elemento["main_cat"]
+            '''
+                controllo se titolo non html
+            '''
+            return elemento["title"], elemento["main_cat"]
 
 
 musiclist = []
 meta_musiclist = []
+
+
 start('review_testing.json', musiclist)
 start('meta_review.json', meta_musiclist)
 
-musiclist= musiclist[0:100]
-'''
-
-f = csv.writer(open("test.csv", "wb+"))
-f.writerow(["pk", "reviewerName", "reviewText", "asin", "title", "main_cat"])
-'''
-
-
-contatore = 0
+contatore = 1
 for music in musiclist:
-
     try:
 
-        lista_risultato = asin_to_title(music["asin"], meta_musiclist)
+        title = asin_to_title(music["asin"],meta_musiclist)
 
-        print(lista_risultato[0])
-        print(f"Cd's and vinyl")
-        print("******************************************************")
+        temp = recensione(contatore,
+                          music["reviewerName"],
+                          music["reviewText"],
+                          music["asin"],
+                          title,
+                          "Cd's Vynil"
+                          )
+
+        print(str(temp))
+        print("*****************************************************")
+        contatore = contatore + 1
 
     except KeyError:
         continue
