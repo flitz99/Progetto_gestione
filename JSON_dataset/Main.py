@@ -1,6 +1,6 @@
 import json
 import csv
-
+from recensione import *
 
 def start(file_path, lista):
     '''
@@ -20,7 +20,7 @@ def asin_to_title(asin, lista):
     for elemento in lista:
 
         if elemento["asin"] == asin:
-            return elemento["title"]
+            return elemento["title"] , elemento["main_cat"]
 
 
 musiclist = []
@@ -40,12 +40,12 @@ contatore = 0
 for music in musiclist:
 
     try:
-        print(contatore, music["asin"], music["reviewerName"], music["reviewText"])
-        contatore = contatore + 1
 
         lista_risultato = asin_to_title(music["asin"], meta_musiclist)
 
-        print(contatore, music["reviewerName"], music["reviewText"],asin_to_title(music["asin"], meta_musiclist))
+        print(lista_risultato[0])
+        print(f"Cd's and vinyl")
+        print("******************************************************")
 
     except KeyError:
         continue
