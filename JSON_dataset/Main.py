@@ -25,8 +25,8 @@ def asin_to_title(asin, lista):
 
 musiclist = []
 meta_musiclist = []
-start('CDs_and_Vinyl.json', musiclist)
-start('meta_CDs_and_Vinyl.json', meta_musiclist)
+start('CDs_and_Vinyl20k.json', musiclist)
+start('meta_CDs_and_Vinyl20k.json', meta_musiclist)
 
 musiclist= musiclist[0:100]
 '''
@@ -35,14 +35,6 @@ f = csv.writer(open("test.csv", "wb+"))
 f.writerow(["pk", "reviewerName", "reviewText", "asin", "title", "main_cat"])
 '''
 
-with open("file.txt", "w") as f:
-    for s in musiclist:
-        f.write(str(s) +"\n")
-
-score = []
-with open("file.txt", "r") as f:
-  for line in f:
-    score.append(int(line.strip()))
 
 contatore = 0
 for music in musiclist:
