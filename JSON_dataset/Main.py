@@ -25,8 +25,8 @@ def asin_to_title(asin, lista):
 
 musiclist = []
 meta_musiclist = []
-start('CDs_and_Vinyl20k.json', musiclist)
-start('meta_CDs_and_Vinyl20k.json', meta_musiclist)
+start('review_testing.json', musiclist)
+start('meta_review.json', meta_musiclist)
 
 musiclist= musiclist[0:100]
 '''
