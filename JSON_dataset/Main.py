@@ -22,10 +22,7 @@ def asin_to_title(asin, lista):
     for elemento in lista:
 
         if elemento["asin"] == asin:
-            '''
-                controllo se titolo non html
-            '''
-            return elemento["title"], elemento["main_cat"]
+            return elemento["title"]
 
 
 musiclist = []
@@ -41,19 +38,17 @@ for music in musiclist:
 
         title = asin_to_title(music["asin"],meta_musiclist)
 
-
-
         temp = recensione(contatore,
                           music["reviewerName"],
                           music["reviewText"],
                           music["asin"],
-                          title[0],
+                          title,
                           "Cd's Vynil"
                           )
 
-        print(str(temp))
-        print("*****************************************************")
         contatore = contatore + 1
+
+        print(temp)
 
     except KeyError:
         continue
