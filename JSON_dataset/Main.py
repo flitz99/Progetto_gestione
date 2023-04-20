@@ -33,6 +33,12 @@ start('review_testing.json', musiclist)
 start('meta_review.json', meta_musiclist)
 
 contatore = 1
+
+
+with open("music.csv", "w") as stream:
+    writer = csv.writer(stream)
+
+
 for music in musiclist:
     try:
 
@@ -41,9 +47,11 @@ for music in musiclist:
         if re.search("<span .*",title):
             continue
 
+
+
         temp = recensione(contatore,
-                          music["reviewerName"],
-                          music["reviewText"],
+                          music["reviewerName"].replace('\n',' '),
+                          music["reviewText"].replace('\n',' '),
                           music["asin"],
                           title,
                           "Cd's Vynil"

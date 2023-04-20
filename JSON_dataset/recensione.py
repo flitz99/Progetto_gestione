@@ -21,3 +21,5 @@ class recensione:
     def __repr__(self):
         return f"{self.pk} | {self.reviewerName} | {self.reviewText} | {self.asin} | {self.title}  | {self.main_cat} "
 
+
+
