@@ -17,3 +17,4 @@ class recensione:
         self.main_cat = main_cat
 
     def __iter__(self):
+        return iter([self.pk])
