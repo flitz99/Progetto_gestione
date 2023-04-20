@@ -15,6 +15,7 @@ class recensione:
         self.title = title
         self.main_cat = main_cat
 
+
     def __iter__(self):
         return iter([self.pk, self.reviewerName, self.reviewText, self.asin, self.title, self.main_cat])
 

@@ -41,11 +41,13 @@ for music in musiclist:
 
         title = asin_to_title(music["asin"],meta_musiclist)
 
+
+
         temp = recensione(contatore,
                           music["reviewerName"],
                           music["reviewText"],
                           music["asin"],
-                          title,
+                          title[0],
                           "Cd's Vynil"
                           )
 
