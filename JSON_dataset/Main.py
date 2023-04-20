@@ -33,7 +33,7 @@ start('meta_review.json', meta_musiclist)
 
 contatore = 1
 
-stream = open("music.csv", "w")
+stream = open("music.csv", "w" , newline='')
 writer = csv.writer(stream)
 header = ['pk', 'reviewerName', 'reviewText', 'asin', 'title', 'categoria']
 writer.writerow(header)
@@ -53,7 +53,7 @@ for music in musiclist:
                           title,
                           "Cd's Vynil"
                           )
-        writer.writerow(temp.recensione_to_tuple())
+        writer.writerow(temp)
 
         contatore = contatore + 1
 
