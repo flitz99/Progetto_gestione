@@ -1,7 +1,7 @@
 import json
 import csv
 from recensione import *
-
+import re
 
 def start(file_path, lista):
     '''
@@ -37,6 +37,9 @@ for music in musiclist:
     try:
 
         title = asin_to_title(music["asin"],meta_musiclist)
+
+        if re.search("<span .*",title):
+            continue
 
         temp = recensione(contatore,
                           music["reviewerName"],
