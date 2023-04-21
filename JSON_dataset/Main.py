@@ -28,15 +28,17 @@ def asin_to_title(asin, lista):
 musiclist = []
 meta_musiclist = []
 
-start('review_testing.json', musiclist)
-start('meta_review.json', meta_musiclist)
+start('Movies_and_TV.json', musiclist)
+start('meta_Movies_and_TV.json', meta_musiclist)
 
-contatore = 1
+contatore = 19770
 
-stream = open("music.csv", "w" , newline='')
+stream = open("dataset_2.csv", "w" , newline='')
 writer = csv.writer(stream)
 header = ['pk', 'reviewerName', 'reviewText', 'asin', 'title', 'categoria']
 writer.writerow(header)
+
+musiclist = musiclist[0:20100]
 
 for music in musiclist:
     try:
