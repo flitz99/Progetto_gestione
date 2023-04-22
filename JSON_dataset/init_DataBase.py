@@ -28,22 +28,30 @@ def asin_to_title(asin, lista):
 musiclist = []
 meta_musiclist = []
 
-start('Movies_and_TV.json', musiclist)
-start('meta_Movies_and_TV.json', meta_musiclist)
+movielist = []
+meta_movielist = []
 
-contatore = 19770
+start('#################', musiclist)
+start('#################', meta_musiclist)
 
-stream = open("dataset_2.csv", "w" , newline='')
+start('#################', movielist)
+start('#################', meta_movielist)
+
+contatore = 1
+
+stream = open("dataset_2.csv", "w", newline='')
 writer = csv.writer(stream)
 header = ['pk', 'reviewerName', 'reviewText', 'asin', 'title', 'categoria']
 writer.writerow(header)
 
-musiclist = musiclist[0:20100]
+'''
+itero la lista dei Tv e Movies e lo aggiungo al dataset
+'''
 
 for music in musiclist:
     try:
 
-        title = asin_to_title(music["asin"], meta_musiclist)
+        title = asin_to_title(music["asin"], meta_movielist)
 
         if re.search("<span .*", title):
             continue
@@ -54,6 +62,31 @@ for music in musiclist:
                           music["asin"],
                           title,
                           "Cd's Vynil"
+                          )
+        writer.writerow(temp)
+
+        contatore = contatore + 1
+
+    except KeyError:
+        continue
+
+'''
+itero la lista dei Tv e Movies e lo aggiungo al dataset
+'''
+for movie in movielist:
+    try:
+
+        title = asin_to_title(movie["asin"], meta_musiclist)
+
+        if re.search("<span .*", title):
+            continue
+
+        temp = recensione(contatore,
+                          movie["reviewerName"].replace('\n', ' '),
+                          movie["reviewText"].replace('\n', ' '),
+                          movie["asin"],
+                          title,
+                          "Mvoies and Tv"
                           )
         writer.writerow(temp)
 
