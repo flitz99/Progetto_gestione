@@ -14,6 +14,7 @@ def start(file_path, lista):
     print(f"{file_path} insieme alla {lista} ")
     with open(file_path) as file:
         for jsonObj in file:
+
             temp = json.loads(jsonObj)
             lista.append(temp)
 
@@ -50,8 +51,11 @@ itero la lista dei Tv e Movies e lo aggiungo al dataset
 
 for music in musiclist:
     try:
+        print(contatore)
+        title = asin_to_title(music["asin"], meta_musiclist)
 
-        title = asin_to_title(music["asin"], meta_movielist)
+        if title is None:
+            continue
 
         if re.search("<span .*", title):
             continue
@@ -73,10 +77,14 @@ for music in musiclist:
 '''
 itero la lista dei Tv e Movies e lo aggiungo al dataset
 '''
+
 for movie in movielist:
     try:
+        print(contatore)
+        title = asin_to_title(movie["asin"], meta_movielist)
 
-        title = asin_to_title(movie["asin"], meta_musiclist)
+        if title is None:
+            continue
 
         if re.search("<span .*", title):
             continue
