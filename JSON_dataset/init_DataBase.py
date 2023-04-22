@@ -31,11 +31,11 @@ meta_musiclist = []
 movielist = []
 meta_movielist = []
 
-start('#################', musiclist)
-start('#################', meta_musiclist)
+start('CDs_and_Vinyl_25k.json', musiclist)
+start('meta_CDs_and_Vinyl_50k.json', meta_musiclist)
 
-start('#################', movielist)
-start('#################', meta_movielist)
+start('Movies_and_TV_25k.json', movielist)
+start('meta_Movies_and_TV_50k.json', meta_movielist)
 
 contatore = 1
 
