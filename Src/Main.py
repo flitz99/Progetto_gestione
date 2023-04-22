@@ -25,14 +25,15 @@ def asin_to_title(asin , lista):
 
 musiclist = []
 meta_musiclist = []
-start('CDs_and_Vinyl.json', musiclist)
+start('Cds_and_vinyl_20k.json', musiclist)
 start('meta_CDs_and_Vinyl.json', meta_musiclist)
 
 musiclist = musiclist[0:20100]
 
-f = csv.writer(open("test.csv", "wb+"))
+f = csv.writer(open("test.csv", "wb"))
 
 f.writerow(["pk", "reviewerName", "reviewText", "asin", "title", "main_cat"])
+contatore=0
 
 for music in musiclist:
 
@@ -40,7 +41,8 @@ for music in musiclist:
         print(contatore, music["asin"], music["reviewerName"], music["reviewText"])
         contatore = contatore + 1
 
-        lista_risultato = asin_to_title(music["asin"])
+        lista_risultato = asin_to_title(music["asin"],meta_musiclist)
+
         f.writerow(contatore,music["reviewerName"], music["reviewText"],lista_risultato.index(0)  ,lista_risultato.index(1) )
     except KeyError:
         continue
