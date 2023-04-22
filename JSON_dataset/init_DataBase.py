@@ -57,6 +57,9 @@ for music in musiclist:
         if title is None:
             continue
 
+        if   len(music["reviewText"].replace('\n', ' ')) <= 20:
+            continue
+
         if re.search("<span .*", title):
             continue
 
@@ -65,7 +68,7 @@ for music in musiclist:
                           music["reviewText"].replace('\n', ' '),
                           music["asin"],
                           title,
-                          "Cd's Vynil"
+                          "Cd's Vinyl"
                           )
         writer.writerow(temp)
 
@@ -75,7 +78,7 @@ for music in musiclist:
         continue
 
 '''
-itero la lista dei Tv e Movies e lo aggiungo al dataset
+itero la lista dei Tv e Movies e lo untagging al dataset
 '''
 
 for movie in movielist:
@@ -86,6 +89,9 @@ for movie in movielist:
         if title is None:
             continue
 
+        if   len(movie["reviewText"].replace('\n', ' ')) <= 20:
+            continue
+
         if re.search("<span .*", title):
             continue
 
@@ -94,7 +100,7 @@ for movie in movielist:
                           movie["reviewText"].replace('\n', ' '),
                           movie["asin"],
                           title,
-                          "Mvoies and Tv"
+                          "Movies and Tv"
                           )
         writer.writerow(temp)
 

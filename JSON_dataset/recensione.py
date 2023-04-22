@@ -6,6 +6,10 @@ f.writerow(["pk", "reviewerName", "reviewText", "asin", "title", "main_cat"])
 '''
 
 
+b = "Great. I love Amazon."
+
+print(len(b))
+
 class recensione:
     def __init__(self, pk, reviewer_name, review_text, asin, title, main_cat):
         self.pk = pk
