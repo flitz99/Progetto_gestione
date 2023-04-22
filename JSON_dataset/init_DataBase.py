@@ -39,7 +39,7 @@ start('#################', meta_movielist)
 
 contatore = 1
 
-stream = open("dataset_2.csv", "w", newline='')
+stream = open("dataset.csv", "w", newline='')
 writer = csv.writer(stream)
 header = ['pk', 'reviewerName', 'reviewText', 'asin', 'title', 'categoria']
 writer.writerow(header)
