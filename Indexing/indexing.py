@@ -57,8 +57,33 @@ if index.ix.is_empty() == True:
 
 from whoosh.query import Every
 ix = open_dir('./indexdir')
-ix.schema
+
+print(ix.schema)
 results = ix.searcher().search(Every('pk'))
 
 for x in results:
     print(x)
+
+
+#--------
+from whoosh import index
+from whoosh.qparser import QueryParser
+
+
+qp = QueryParser("pk", schema=ix.schema)
+
+# Find all datetimes in 2005
+
+q = qp.parse(u"10")
+print(q)
+
+with ix.searcher() as s:
+    results = s.search(q)
+
+if results.has_matched_terms():
+    # What terms matched in the results?
+    print(results.matched_terms())
+
+    # What terms matched in each hit?
+    for hit in results:
+        print(hit.matched_terms())
