@@ -1,6 +1,6 @@
 import os.path
 from datetime import datetime, timedelta
-from whoosh import fields, index
+from whoosh import fields, index, qparser
 from whoosh.analysis import StemmingAnalyzer
 from whoosh.fields import Schema, TEXT, ID
 from whoosh.index import open_dir
@@ -59,31 +59,25 @@ from whoosh.query import Every
 ix = open_dir('./indexdir')
 
 print(ix.schema)
-results = ix.searcher().search(Every('pk'))
+#results = ix.searcher().search(Every('pk'))
 
-for x in results:
-    print(x)
+#for x in results:
+#    print(x)
 
 
-#--------
-from whoosh import index
+with ix.searcher() as searcher:
+    print("sono dentro")
+    list(searcher.lexicon("reviewText"))
+
+
 from whoosh.qparser import QueryParser
 
-
-qp = QueryParser("pk", schema=ix.schema)
-
-# Find all datetimes in 2005
-
-q = qp.parse(u"10")
-print(q)
+qp = QueryParser("reviewText", schema=ix.schema)
+q = qp.parse(u"segment")
 
 with ix.searcher() as s:
-    results = s.search(q)
+    results = s.search_page(q, 5, pagelen=20)
+    for x,y in enumerate(results):
+        print(x+1)
+        print(y)
 
-if results.has_matched_terms():
-    # What terms matched in the results?
-    print(results.matched_terms())
-
-    # What terms matched in each hit?
-    for hit in results:
-        print(hit.matched_terms())
