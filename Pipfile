@@ -6,6 +6,8 @@ name = "pypi"
 [packages]
 beautifulsoup4 = "*"
 scrapy = "*"
+whoosh = "*"
+tqdm = "*"
 
 [dev-packages]
 
