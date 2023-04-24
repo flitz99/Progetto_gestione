@@ -14,7 +14,6 @@ def start(file_path, lista):
     print(f"{file_path} insieme alla {lista} ")
     with open(file_path) as file:
         for jsonObj in file:
-
             temp = json.loads(jsonObj)
             lista.append(temp)
 
@@ -26,11 +25,55 @@ def asin_to_title(asin, lista):
             return elemento["title"]
 
 
+class counter:
+
+    def __init__(self, valore):
+        self.value = valore
+
+    def increment(self):
+        self.value = self.value + 1
+
+    def value_of(self):
+        return f"{self.value}"
+
+
+def init_datasetcsv(nome_categoria, lista_iterare, meta_lista_iterare, cont):
+    for obj in lista_iterare:
+        try:
+            print(cont.value_of())
+            title = asin_to_title(obj["asin"], meta_lista_iterare)
+
+            if title is None:
+                continue
+
+            if len(obj["reviewText"].replace('\n', ' ')) <= 20:
+                continue
+
+            if re.search("<span .*", title):
+                continue
+
+            temp = recensione(cont.value_of(),
+                              obj["reviewerName"].replace('\n', ' '),
+                              obj["reviewText"].replace('\n', ' '),
+                              obj["asin"],
+                              title,
+                              nome_categoria
+                              )
+            writer.writerow(temp)
+
+            cont.increment()
+
+        except KeyError:
+            continue
+
+
 musiclist = []
 meta_musiclist = []
 
 movielist = []
 meta_movielist = []
+
+contatore = counter(1)
 
 start('CDs_and_Vinyl_25k.json', musiclist)
 start('meta_CDs_and_Vinyl_50k.json', meta_musiclist)
@@ -38,75 +81,12 @@ start('meta_CDs_and_Vinyl_50k.json', meta_musiclist)
 start('Movies_and_TV_25k.json', movielist)
 start('meta_Movies_and_TV_50k.json', meta_movielist)
 
-contatore = 1
-
 stream = open("dataset.csv", "w", newline='')
 writer = csv.writer(stream)
 header = ['pk', 'reviewerName', 'reviewText', 'asin', 'title', 'categoria']
 writer.writerow(header)
 
-'''
-itero la lista dei Tv e Movies e lo aggiungo al dataset
-'''
+init_datasetcsv("Cd e Vynil", musiclist, meta_musiclist, contatore)
+init_datasetcsv("Movies and TV", movielist, meta_movielist, contatore)
 
-for music in musiclist:
-    try:
-        print(contatore)
-        title = asin_to_title(music["asin"], meta_musiclist)
-
-        if title is None:
-            continue
-
-        if   len(music["reviewText"].replace('\n', ' ')) <= 20:
-            continue
-
-        if re.search("<span .*", title):
-            continue
-
-        temp = recensione(contatore,
-                          music["reviewerName"].replace('\n', ' '),
-                          music["reviewText"].replace('\n', ' '),
-                          music["asin"],
-                          title,
-                          "Cd's Vinyl"
-                          )
-        writer.writerow(temp)
-
-        contatore = contatore + 1
-
-    except KeyError:
-        continue
-
-'''
-itero la lista dei Tv e Movies e lo untagging al dataset
-'''
-
-for movie in movielist:
-    try:
-        print(contatore)
-        title = asin_to_title(movie["asin"], meta_movielist)
-
-        if title is None:
-            continue
-
-        if   len(movie["reviewText"].replace('\n', ' ')) <= 20:
-            continue
-
-        if re.search("<span .*", title):
-            continue
-
-        temp = recensione(contatore,
-                          movie["reviewerName"].replace('\n', ' '),
-                          movie["reviewText"].replace('\n', ' '),
-                          movie["asin"],
-                          title,
-                          "Movies and Tv"
-                          )
-        writer.writerow(temp)
-
-        contatore = contatore + 1
-
-    except KeyError:
-        continue
-
-stream.close()
+# stream.close()
