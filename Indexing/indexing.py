@@ -3,6 +3,7 @@ from datetime import datetime, timedelta
 from whoosh import fields, index
 from whoosh.analysis import StemmingAnalyzer
 from whoosh.fields import Schema, TEXT, ID
+from whoosh.index import open_dir
 
 from Database import Database
 from tqdm import tqdm
@@ -54,3 +55,10 @@ if index.ix.is_empty() == True:
     print("fallimento")
 '''
 
+from whoosh.query import Every
+ix = open_dir('./indexdir')
+ix.schema
+results = ix.searcher().search(Every('pk'))
+
+for x in results:
+    print(x)
