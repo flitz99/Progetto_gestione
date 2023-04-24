@@ -73,7 +73,7 @@ meta_musiclist = []
 movielist = []
 meta_movielist = []
 
-contatore = counter(1)
+count = counter(1)
 
 start('CDs_and_Vinyl_25k.json', musiclist)
 start('meta_CDs_and_Vinyl_50k.json', meta_musiclist)
@@ -86,7 +86,8 @@ writer = csv.writer(stream)
 header = ['pk', 'reviewerName', 'reviewText', 'asin', 'title', 'categoria']
 writer.writerow(header)
 
-init_datasetcsv("Cd e Vynil", musiclist, meta_musiclist, contatore)
-init_datasetcsv("Movies and TV", movielist, meta_movielist, contatore)
+init_datasetcsv("Cd e Vynil", musiclist, meta_musiclist, count)
+init_datasetcsv("Movies and TV", movielist, meta_movielist, count)
 
-# stream.close()
+stream.close()
+
