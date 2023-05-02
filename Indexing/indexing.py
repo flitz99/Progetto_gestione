@@ -1,11 +1,7 @@
 import os.path
-from datetime import datetime, timedelta
 from whoosh import fields, index, qparser
 from whoosh.analysis import StemmingAnalyzer
 from whoosh.fields import Schema, TEXT, ID
-from whoosh.index import open_dir
-
-from Database import Database
 from tqdm import tqdm
 
 
@@ -54,30 +50,4 @@ index.create_index()
 if index.ix.is_empty() == True:
     print("fallimento")
 '''
-
-from whoosh.query import Every
-ix = open_dir('./indexdir')
-
-print(ix.schema)
-#results = ix.searcher().search(Every('pk'))
-
-#for x in results:
-#    print(x)
-
-
-with ix.searcher() as searcher:
-    print("sono dentro")
-    list(searcher.lexicon("reviewText"))
-
-
-from whoosh.qparser import QueryParser
-
-qp = QueryParser("reviewText", schema=ix.schema)
-q = qp.parse(u"segment")
-
-with ix.searcher() as s:
-    results = s.search_page(q, 5, pagelen=20)
-    for x,y in enumerate(results):
-        print(x+1)
-        print(y)
 
