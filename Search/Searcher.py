@@ -11,12 +11,12 @@ class Searcher:
         print("inizio searcher")
 
     def inizializza(self):
+
         # ----  Apertura indice whoosh   ----
-        from whoosh.query import Every
         try:
             ix = open_dir('./indexdir')
         except:
-            raise OSError(" Directory non trovata")
+            raise OSError("Directory non trovata")
 
 
 
