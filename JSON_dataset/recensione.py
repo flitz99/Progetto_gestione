@@ -1,15 +1,3 @@
-''''
-f.writerow(["pk", "reviewerName", "reviewText", "asin", "title", "main_cat"])
-
-
-  <   >    span=
-'''
-
-
-b = "Great. I love Amazon."
-
-print(len(b))
-
 class recensione:
     def __init__(self, *args):
         self.pk = args[0]
@@ -19,13 +7,17 @@ class recensione:
         self.title = args[4]
         self.main_cat = args[5]
 
+        # appena creato uso il review text appena ricevuto per calcolare i score
+        self.__score_myself__(self.reviewText)
+
     def __iter__(self):
         return iter([self.pk, self.reviewerName, self.reviewText, self.asin, self.title, self.main_cat])
 
     def __repr__(self):
         return f"{self.pk} | {self.reviewerName} | {self.reviewText} | {self.asin} | {self.title}  | {self.main_cat} "
 
-
+    def __score_myself__(self, Text):
+        self.vader_score = (Text)
 
     def get_pk(self):
         return self.pk
@@ -35,6 +27,9 @@ class recensione:
 
     def get_reviewText(self):
         return self.reviewText
+
+    def count_review(self):
+        return len(self.reviewText)
 
     def get_asin(self):
         return self.asin
