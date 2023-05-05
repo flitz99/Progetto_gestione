@@ -9,6 +9,7 @@ scrapy = "*"
 whoosh = "*"
 tqdm = "*"
 transformers = "*"
+textblob = "*"
 
 [dev-packages]
 
