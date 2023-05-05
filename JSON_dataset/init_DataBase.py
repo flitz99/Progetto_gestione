@@ -2,6 +2,7 @@ import json
 import csv
 from recensione import *
 import re
+import Sentiment_analyzer as sa
 
 
 def start(file_path, lista):
@@ -38,6 +39,8 @@ class counter:
 
 
 def init_datasetcsv(nome_categoria, lista_iterare, meta_lista_iterare, cont):
+    Analizzatore = sa.Sentiment_analyzers()
+
     for obj in lista_iterare:
         try:
             print(cont.value_of())
@@ -52,12 +55,22 @@ def init_datasetcsv(nome_categoria, lista_iterare, meta_lista_iterare, cont):
             if re.search("<span .*", title):
                 continue
 
+            cleaned_review_text = obj["reviewText"].replace('\n', ' ')
+
+            print(len(cleaned_review_text))
+            if len(cleaned_review_text) > 500:
+                print("troppo grande skippo")
+                continue
+
             temp = recensione(cont.value_of(),
                               obj["reviewerName"].replace('\n', ' '),
-                              obj["reviewText"].replace('\n', ' '),
+                              cleaned_review_text,
                               obj["asin"],
                               title,
-                              nome_categoria
+                              nome_categoria,
+                              Analizzatore.Analizza_Vader(cleaned_review_text),
+                              Analizzatore.Analizza_Distilroberta(cleaned_review_text)
+
                               )
             writer.writerow(temp)
 
@@ -65,9 +78,6 @@ def init_datasetcsv(nome_categoria, lista_iterare, meta_lista_iterare, cont):
 
         except KeyError:
             continue
-
-
-
 
 
 musiclist = []
@@ -84,13 +94,24 @@ start('meta_CDs_and_Vinyl_50k.json', meta_musiclist)
 start('Movies_and_TV_25k.json', movielist)
 start('meta_Movies_and_TV_50k.json', meta_movielist)
 
-stream = open("dataset.csv", "w", newline='')
+stream = open("new_dataset_sentiment.csv", "w", newline='')
 writer = csv.writer(stream)
-header = ['pk', 'reviewerName', 'reviewText', 'asin', 'title', 'categoria']
+header = ['pk',
+          'reviewerName',
+          'reviewText',
+          'asin',
+          'title',
+          'categoria',
+          'vader_valore_negativo',
+          'vader_valore_neutrale',
+          'vader_valore_positivo',
+          'vader_valore_compound',
+          'distilroberta_sentimento',
+          'distilroberta_sentimento_valore'
+          ]
 writer.writerow(header)
 
 init_datasetcsv("Cd e Vynil", musiclist, meta_musiclist, count)
 init_datasetcsv("Movies and TV", movielist, meta_movielist, count)
 
 stream.close()
-

@@ -1,5 +1,5 @@
-from Search.Searcher import Index_Searcher
-from Search.Results import Results
+from Src.Searcher import Index_Searcher
+from Src.Results import Results
 #Inserimenti da parte dell'utente
 query= input("Inserire query: ")
 sentiment_analyzer =input("Inserire analizzatore sentimento: ")

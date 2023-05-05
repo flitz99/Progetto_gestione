@@ -6,12 +6,24 @@ class recensione:
         self.asin = args[3]
         self.title = args[4]
         self.main_cat = args[5]
+        dict_vader = args[6]
+        self.vader_valore_negativo = dict_vader['neg']
+        self.vader_valore_neutrale = dict_vader['neu']
+        self.vader_valore_positivo = dict_vader['pos']
+        self.vader_valore_compound = dict_vader['compound']
+        dict_distilroberta = args[7]
+        self.distilroberta_sentimento = dict_distilroberta[0]['label']
+        self.distilroberta_sentimento_valore = dict_distilroberta[0]['score']
+
 
         # appena creato uso il review text appena ricevuto per calcolare i score
         self.__score_myself__(self.reviewText)
 
     def __iter__(self):
-        return iter([self.pk, self.reviewerName, self.reviewText, self.asin, self.title, self.main_cat])
+        return iter([self.pk, self.reviewerName, self.reviewText, self.asin, self.title, self.main_cat ,
+                     self.vader_valore_negativo , self.vader_valore_neutrale , self.vader_valore_positivo, self.vader_valore_compound,
+                     self.distilroberta_sentimento , self.distilroberta_sentimento_valore
+                     ])
 
     def __repr__(self):
         return f"{self.pk} | {self.reviewerName} | {self.reviewText} | {self.asin} | {self.title}  | {self.main_cat} "

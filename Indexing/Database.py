@@ -23,7 +23,7 @@ class Database:
                 for elemento_estratto in riga:
                     temp.append(elemento_estratto)
 
-                review = rec.recensione(temp[0], temp[1], temp[2], temp[3], temp[4], temp[5])  # creo una recensione
+                review = rec.recensione(temp[0], temp[1], temp[2], temp[3], temp[4], temp[5] , temp[6] , temp[7])  # creo una recensione
                 self.lista_recensioni.append(review)  # aggiungo la recensione alla lista
 
     def Test_numero_ultima_recensione(self):
