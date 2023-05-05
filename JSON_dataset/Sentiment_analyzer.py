@@ -17,8 +17,6 @@ class Sentiment_analyzers:
         self.distilroberta = pipeline("sentiment-analysis",
                                       model="j-hartmann/emotion-english-distilroberta-base")
 
-
-
     def Analizza_Vader(self, testo_da_analizzare):
         return self.vader.polarity_scores(testo_da_analizzare)
 
@@ -55,7 +53,7 @@ print("TextBlob")
 print(classe.Anilizza_Textblob(text))
 
 
-text = "i want to cry."
+text = "I hate this book."
 print('\n')
 print(text)
 print("darth Vader")
