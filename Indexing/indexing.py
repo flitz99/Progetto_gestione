@@ -47,15 +47,15 @@ class Indexer:
 
 
 
-db = Database('../JSON_dataset/dataset.csv')
-db.init_DB()
-db.Test()
-
-index = Indexer(db)
-index.create_index()
-
-
-if index.ix.is_empty() == True:
-    print("fallimento")
-
-
+# db = Database('../JSON_dataset/dataset.csv')
+# db.init_DB()
+# db.Test()
+#
+# index = Indexer(db)
+# index.create_index()
+#
+#
+# if index.ix.is_empty() == True:
+#     print("fallimento")
+#
+#
