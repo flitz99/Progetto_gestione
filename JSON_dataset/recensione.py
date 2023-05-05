@@ -14,6 +14,9 @@ class recensione:
         dict_distilroberta = args[7]
         self.distilroberta_sentimento = dict_distilroberta[0]['label']
         self.distilroberta_sentimento_valore = dict_distilroberta[0]['score']
+        dict_textblob = args[8]
+        self.textblob_valore_positivo = dict_textblob['polarity']
+        self.textblob_valore_compound = dict_textblob['subjectivity']
 
 
         # appena creato uso il review text appena ricevuto per calcolare i score
@@ -22,11 +25,17 @@ class recensione:
     def __iter__(self):
         return iter([self.pk, self.reviewerName, self.reviewText, self.asin, self.title, self.main_cat ,
                      self.vader_valore_negativo , self.vader_valore_neutrale , self.vader_valore_positivo, self.vader_valore_compound,
-                     self.distilroberta_sentimento , self.distilroberta_sentimento_valore
+                     self.distilroberta_sentimento , self.distilroberta_sentimento_valore,
+                     self.textblob_valore_positivo, self.textblob_valore_compound
                      ])
 
     def __repr__(self):
-        return f"{self.pk} | {self.reviewerName} | {self.reviewText} | {self.asin} | {self.title}  | {self.main_cat} "
+        return f"{self.pk} | {self.reviewerName} | {self.reviewText} | {self.asin} | {self.title}  | {self.main_cat} |" \
+               f"{self.vader_valore_negativo} | {self.vader_valore_neutrale}  |  {self.vader_valore_positivo}  |" \
+               f"{self.vader_valore_compound} | {self.distilroberta_sentimento_valore} {self.textblob_valore_positivo}" \
+               f"{self.textblob_valore_compound}"
+
+
 
     def __score_myself__(self, Text):
         self.vader_score = (Text)

@@ -1,5 +1,8 @@
 import json
 import csv
+
+from tqdm import tqdm
+
 from recensione import *
 import re
 import Sentiment_analyzer as sa
@@ -41,9 +44,8 @@ class counter:
 def init_datasetcsv(nome_categoria, lista_iterare, meta_lista_iterare, cont):
     Analizzatore = sa.Sentiment_analyzers()
 
-    for obj in lista_iterare:
+    for obj in tqdm(lista_iterare):
         try:
-            print(cont.value_of())
             title = asin_to_title(obj["asin"], meta_lista_iterare)
 
             if title is None:
@@ -57,9 +59,7 @@ def init_datasetcsv(nome_categoria, lista_iterare, meta_lista_iterare, cont):
 
             cleaned_review_text = obj["reviewText"].replace('\n', ' ')
 
-            print(len(cleaned_review_text))
             if len(cleaned_review_text) > 500:
-                print("troppo grande skippo")
                 continue
 
             temp = recensione(cont.value_of(),
@@ -69,9 +69,10 @@ def init_datasetcsv(nome_categoria, lista_iterare, meta_lista_iterare, cont):
                               title,
                               nome_categoria,
                               Analizzatore.Analizza_Vader(cleaned_review_text),
-                              Analizzatore.Analizza_Distilroberta(cleaned_review_text)
-
+                              Analizzatore.Analizza_Distilroberta(cleaned_review_text),
+                              Analizzatore.Anilizza_Textblob(cleaned_review_text)
                               )
+
             writer.writerow(temp)
 
             cont.increment()
@@ -94,7 +95,7 @@ start('meta_CDs_and_Vinyl_50k.json', meta_musiclist)
 start('Movies_and_TV_25k.json', movielist)
 start('meta_Movies_and_TV_50k.json', meta_movielist)
 
-stream = open("new_dataset_sentiment.csv", "w", newline='')
+stream = open("dataset_sentiment.csv", "w", newline='')
 writer = csv.writer(stream)
 header = ['pk',
           'reviewerName',
@@ -107,10 +108,12 @@ header = ['pk',
           'vader_valore_positivo',
           'vader_valore_compound',
           'distilroberta_sentimento',
-          'distilroberta_sentimento_valore'
+          'distilroberta_sentimento_valore',
+          'textblob_valore_positivo',
+          'textblob_valore_compound'
           ]
 writer.writerow(header)
-
+print("ci sto provando")
 init_datasetcsv("Cd e Vynil", musiclist, meta_musiclist, count)
 init_datasetcsv("Movies and TV", movielist, meta_movielist, count)
 

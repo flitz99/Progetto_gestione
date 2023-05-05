@@ -1,7 +1,7 @@
 import os.path
 from whoosh import fields, index, qparser
 from whoosh.analysis import StemmingAnalyzer
-from whoosh.fields import Schema, TEXT, ID
+from whoosh.fields import Schema, TEXT, ID, NUMERIC
 from tqdm import tqdm
 
 import Database
@@ -18,11 +18,14 @@ class Indexer:
             asin=TEXT(stored=True, analyzer=StemmingAnalyzer()),
             title=TEXT(stored=True, analyzer=StemmingAnalyzer()),
             categoria=TEXT(stored=True, analyzer=StemmingAnalyzer()),
-            vader_valore_negativo=TEXT(stored=True, analyzer=StemmingAnalyzer()),
-            vader_valore_neutrale=TEXT(stored=True, analyzer=StemmingAnalyzer()),
-            vader_valore_positivo=TEXT(stored=True, analyzer=StemmingAnalyzer()),
-            vader_valore_compound=TEXT(stored=True, analyzer=StemmingAnalyzer()),
-
+            vader_valore_negativo=NUMERIC(float ,stored=True, analyzer=StemmingAnalyzer()),
+            vader_valore_neutrale=NUMERIC(float ,stored=True, analyzer=StemmingAnalyzer()),
+            vader_valore_positivo=NUMERIC(float ,stored=True, analyzer=StemmingAnalyzer()),
+            vader_valore_compound=NUMERIC(float ,stored=True, analyzer=StemmingAnalyzer()),
+            distilroberta_sentimento=TEXT(stored=True, analyzer=StemmingAnalyzer()),
+            distilroberta_sentimento_valore=NUMERIC(float ,stored=True, analyzer=StemmingAnalyzer()),
+            textblob_valore_positivo=NUMERIC(float ,stored=True, analyzer=StemmingAnalyzer()),
+            textblob_valore_compound=NUMERIC(float ,stored=True, analyzer=StemmingAnalyzer())
         )
         self.nome_cartella = "indexdir_new"
         if not os.path.exists(self.nome_cartella):

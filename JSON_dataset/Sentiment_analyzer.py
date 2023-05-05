@@ -33,34 +33,34 @@ class Sentiment_analyzers:
         return testimonial_dict
 
 
-text = "i hate this program."
-print('\n')
-print(text)
-classe = Sentiment_analyzers()  # creo la classe
-print("darth Vader")
-print(classe.Analizza_Vader(text))  # calcola
-print("distilroberta")
-print(classe.Analizza_Distilroberta(text))
-print("TextBlob")
-print(classe.Anilizza_Textblob(text))
-
-text = "i love this program."
-print('\n')
-print(text)
-print("darth Vader")
-print(classe.Analizza_Vader(text))  # calcola
-print("distilroberta")
-print(classe.Analizza_Distilroberta(text))
-print("TextBlob")
-print(classe.Anilizza_Textblob(text))
-
-
-text = "i want to cry."
-print('\n')
-print(text)
-print("darth Vader")
-print(classe.Analizza_Vader(text))  # calcola
-print("distilroberta")
-print(classe.Analizza_Distilroberta(text))
-print("TextBlob")
-print(classe.Anilizza_Textblob(text))
+# text = "i hate this program."
+# print('\n')
+# print(text)
+# classe = Sentiment_analyzers()  # creo la classe
+# print("darth Vader")
+# print(classe.Analizza_Vader(text))  # calcola
+# print("distilroberta")
+# print(classe.Analizza_Distilroberta(text))
+# print("TextBlob")
+# print(classe.Anilizza_Textblob(text))
+#
+# text = "i love this program."
+# print('\n')
+# print(text)
+# print("darth Vader")
+# print(classe.Analizza_Vader(text))  # calcola
+# print("distilroberta")
+# print(classe.Analizza_Distilroberta(text))
+# print("TextBlob")
+# print(classe.Anilizza_Textblob(text))
+#
+#
+# text = "i want to cry."
+# print('\n')
+# print(text)
+# print("darth Vader")
+# print(classe.Analizza_Vader(text))  # calcola
+# print("distilroberta")
+# print(classe.Analizza_Distilroberta(text))
+# print("TextBlob")
+# print(classe.Anilizza_Textblob(text))
