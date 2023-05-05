@@ -5,6 +5,7 @@ from textblob import TextBlob
 #
 #  vader            https://github.com/cjhutto/vaderSentiment
 #  distilroberta    https://github.com/j-hartmann/emotion-english-distilroberta-base
+#   TextBlob        https://github.com/sloria/TextBlob
 
 class Sentiment_analyzers:
 
