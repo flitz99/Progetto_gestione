@@ -1,6 +1,7 @@
 from Searcher import *
 from Results import *
-from Indexing.Crea_index import crea_index_se_non_esiste
+from Indexing_Database.Crea_index import *
+
 
 """
 ho commentato per rendere la fase di testing più veloce senza dover fare sempre input
@@ -11,7 +12,8 @@ ho commentato per rendere la fase di testing più veloce senza dover fare sempre
 # sentiment_analyzer = input("Inserire analizzatore sentimento: ")
 # sentiment=input("Inserire sentimento: ")
 
-crea_index_se_non_esiste()
+starter = Start_indexing()
+
 search= Index_Searcher()
 search.inizializza()
 

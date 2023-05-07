@@ -21,7 +21,7 @@ class Index_Searcher:
 
         # ----  Apertura indice whoosh   ----
         try:
-            self.ix = open_dir('../Indexing/indexdir_2.0')
+            self.ix = open_dir('../Indexing_Database/indexdir_2.0')
         except:
             raise OSError("Directory non trovata")
 
@@ -65,7 +65,7 @@ class Index_Searcher:
             print("errore nella query")
 
     def Test_Controllo_Index(self, testo_test):
-        ix = open_dir('../Indexing/indexdir_2.0')
+        ix = open_dir('../Indexing_Database/indexdir_2.0')
 
         qparser = QueryParser("reviewText", schema=ix.schema)
         q = qparser.parse(testo_test)
