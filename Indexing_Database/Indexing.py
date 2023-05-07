@@ -4,9 +4,6 @@ from whoosh.analysis import StemmingAnalyzer
 from whoosh.fields import Schema, TEXT, ID, NUMERIC
 from tqdm import tqdm
 
-
-
-
 class Indexer:
 
     def __init__(self, database):

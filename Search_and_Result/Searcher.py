@@ -21,7 +21,7 @@ class Index_Searcher:
 
         # ----  Apertura indice whoosh   ----
         try:
-            self.ix = open_dir('../Indexing_Database/indexdir_2.0')
+            self.ix = open_dir('../Search_and_Result/indexdir_2.0')
         except:
             raise OSError("Directory non trovata")
 
@@ -31,11 +31,11 @@ class Index_Searcher:
         with open("../prolog/wn_s.pl") as file:
             self.thesaurus = Thesaurus.from_file(file)
 
-        # Creo parser per ricerca
-        orsearch = qp.OrGroup.factory(0.8)
+        self.parser = qp.MultifieldParser(["reviewText"], schema=self.ix.schema, group=qp.OrGroup).parse("good book")
+        results= self.ix.searcher().search(self.parser,limit=100)
 
-        campi = self.ix.schema.stored_names()
-        self.parser = qp.MultifieldParser("reviewText", self.ix.schema, group=orsearch)
+        for cont,r in enumerate(results):
+            print(cont,r)
 
         # Creo whoosh searcher
 

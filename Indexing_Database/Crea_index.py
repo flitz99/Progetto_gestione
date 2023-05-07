@@ -8,7 +8,7 @@ class Start_indexing:
         self.crea_index_se_non_esiste()
 
     def crea_index_se_non_esiste(self):
-        is_index_dir = os.path.exists('/indexdir_2.0')
+        is_index_dir = os.path.exists('../Search_and_Result/indexdir_2.0')
 
         if not is_index_dir:
             print("index non esiste attendere la sua creazione")
