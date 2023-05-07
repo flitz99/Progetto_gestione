@@ -4,7 +4,7 @@ from whoosh.analysis import StemmingAnalyzer
 from whoosh.fields import Schema, TEXT, ID, NUMERIC
 from tqdm import tqdm
 
-import Database as data
+
 
 
 class Indexer:
@@ -57,12 +57,3 @@ class Indexer:
         self.w.commit()
 
 
-# db = data.Database('../JSON_dataset/dataset_sentiment.csv')
-# db.init_DB()
-#
-#
-# index = Indexer(db)
-# index.create_index()
-#
-# if index.ix.is_empty() == True:
-#     print("fallimento")
