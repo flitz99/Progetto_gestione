@@ -4,7 +4,7 @@ from whoosh.analysis import StemmingAnalyzer
 from whoosh.fields import Schema, TEXT, ID, NUMERIC
 from tqdm import tqdm
 
-import Database
+import Database as data
 
 
 class Indexer:
@@ -18,16 +18,16 @@ class Indexer:
             asin=TEXT(stored=True, analyzer=StemmingAnalyzer()),
             title=TEXT(stored=True, analyzer=StemmingAnalyzer()),
             categoria=TEXT(stored=True, analyzer=StemmingAnalyzer()),
-            vader_valore_negativo=NUMERIC(float ,stored=True, analyzer=StemmingAnalyzer()),
-            vader_valore_neutrale=NUMERIC(float ,stored=True, analyzer=StemmingAnalyzer()),
-            vader_valore_positivo=NUMERIC(float ,stored=True, analyzer=StemmingAnalyzer()),
-            vader_valore_compound=NUMERIC(float ,stored=True, analyzer=StemmingAnalyzer()),
+            vader_valore_negativo=NUMERIC(float, stored=True),
+            vader_valore_neutrale=NUMERIC(float, stored=True),
+            vader_valore_positivo=NUMERIC(float, stored=True),
+            vader_valore_compound=NUMERIC(float, stored=True),
             distilroberta_sentimento=TEXT(stored=True, analyzer=StemmingAnalyzer()),
-            distilroberta_sentimento_valore=NUMERIC(float ,stored=True, analyzer=StemmingAnalyzer()),
-            textblob_valore_positivo=NUMERIC(float ,stored=True, analyzer=StemmingAnalyzer()),
-            textblob_valore_compound=NUMERIC(float ,stored=True, analyzer=StemmingAnalyzer())
+            distilroberta_sentimento_valore=NUMERIC(float, stored=True),
+            textblob_valore_positivo=NUMERIC(float, stored=True),
+            textblob_valore_compound=NUMERIC(float, stored=True)
         )
-        self.nome_cartella = "indexdir_new"
+        self.nome_cartella = "indexdir_2.0"
         if not os.path.exists(self.nome_cartella):
             os.mkdir(self.nome_cartella)
 
@@ -35,30 +35,34 @@ class Indexer:
         self.w = self.ix.writer()
 
     def create_index(self):
-        for recensione in tqdm(self.database.lista_recensioni):
+        for item in tqdm(self.database.lista_recensioni):
             self.w.add_document(
-                pk=recensione.get_pk(),
-                reviewerName=recensione.get_reviewerName(),
-                reviewText=recensione.get_reviewText(),
-                asin=recensione.get_asin(),
-                title=recensione.get_title(),
-                categoria=recensione.get_main_cat()
+                pk=item[0],
+                reviewerName=item[1],
+                reviewText=item[2],
+                asin=item[3],
+                title=item[4],
+                categoria=item[5],
+                vader_valore_negativo=item[6],
+                vader_valore_neutrale=item[7],
+                vader_valore_positivo=item[8],
+                vader_valore_compound=item[9],
+                distilroberta_sentimento=item[10],
+                distilroberta_sentimento_valore=item[11],
+                textblob_valore_positivo=item[12],
+                textblob_valore_compound=item[13]
 
             )
 
         self.w.commit()
 
 
-
-# db = Database('../JSON_dataset/dataset.csv')
+# db = data.Database('../JSON_dataset/dataset_sentiment.csv')
 # db.init_DB()
-# db.Test()
+#
 #
 # index = Indexer(db)
 # index.create_index()
 #
-#
 # if index.ix.is_empty() == True:
 #     print("fallimento")
-#
-#

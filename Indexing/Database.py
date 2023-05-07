@@ -23,20 +23,17 @@ class Database:
                 for elemento_estratto in riga:
                     temp.append(elemento_estratto)
 
-                review = rec.recensione(temp[0], temp[1], temp[2], temp[3], temp[4], temp[5] , temp[6] , temp[7] , temp[8])  # creo una recensione
-                self.lista_recensioni.append(review)  # aggiungo la recensione alla lista
+                self.lista_recensioni.append(temp)  # aggiungo la recensione alla lista
 
     def Test_numero_ultima_recensione(self):
         temp = self.lista_recensioni[-1]
         print(temp.get_pk())  # controllo pk del ultimo elemento nella lista
 
-    def Test_Conta_caratteri_totali(self , lista):
+    def Test_Conta_caratteri_totali(self, lista):
 
         for l in self.lista_recensioni:
             temp = l
             lista.append(temp.count_review())
-
-
 
 # db = Database('../JSON_dataset/dataset.csv')
 # db.init_DB()
