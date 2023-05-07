@@ -1,29 +1,17 @@
 from Searcher import *
 from Results import *
-from Indexing.Database import Database as data
-from Indexing.indexing import Indexer
-
-
-is_index_dir = open_dir('../Indexing/indexdir_2.0')
-
-if not is_index_dir:
-    db = data.Database('../JSON_dataset/dataset_sentiment.csv')
-    db.init_DB()
-
-    index = Indexer(db)
-    index.create_index()
-
-    if index.ix.is_empty() == True:
-        print("fallimento")
-
+from Indexing.Crea_index import crea_index_se_non_esiste
 
 """
 ho commentato per rendere la fase di testing più veloce senza dover fare sempre input
 """
+
+
 # query= input("Inserire query: ")
-# sentiment_analyzer =input("Inserire analizzatore sentimento: ")
+# sentiment_analyzer = input("Inserire analizzatore sentimento: ")
 # sentiment=input("Inserire sentimento: ")
 
+crea_index_se_non_esiste()
 search= Index_Searcher()
 search.inizializza()
 
