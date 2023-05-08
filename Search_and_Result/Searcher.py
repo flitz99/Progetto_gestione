@@ -31,11 +31,11 @@ class Index_Searcher:
         with open("../prolog/wn_s.pl") as file:
             self.thesaurus = Thesaurus.from_file(file)
 
-        self.parser = qp.MultifieldParser(["reviewText"], schema=self.ix.schema, group=qp.OrGroup).parse("good book")
-        results= self.ix.searcher().search(self.parser,limit=100)
+        # self.parser = qp.MultifieldParser(["reviewText"], schema=self.ix.schema, group=qp.OrGroup).parse("good book")
+        # results= self.ix.searcher().search(self.parser,limit=100)
 
-        for cont,r in enumerate(results):
-            print(cont,r)
+        # for cont,r in enumerate(results):
+        #     print(cont,r)
 
         # Creo whoosh searcher
 
@@ -54,9 +54,14 @@ class Index_Searcher:
             sinonimi = [j for i in words for j in self.thesaurus.synonyms(i)]  # cerco sinonimi singole parole
             words.extend(sinonimi)  # aggiungo alla lista di ricerca
             stinga_di_ricerca = " ".join(words)  # trasforma la lista in una stringa_di_ricerca
-            query_di_ricerca = self.parser.parse(stinga_di_ricerca)  # eseguo la ricerca usando la stringa
+
+            self.parser = qp.MultifieldParser(["reviewText"], schema=self.ix.schema, group=qp.OrGroup).parse(
+                 stinga_di_ricerca)
+            query_di_ricerca =self.ix.searcher().search(self.parser,limit=results_threshold)  # eseguo la ricerca usando la stringa
         else:
-            query_di_ricerca = self.parser.parse(query)  # eseguo una query vanilla
+            self.parser = qp.MultifieldParser(["reviewText"], schema=self.ix.schema, group=qp.OrGroup).parse(
+                query)
+            query_di_ricerca = self.ix.searcher().search(self.parser, limit=results_threshold)
 
         if query_di_ricerca:
             print("result esistono")

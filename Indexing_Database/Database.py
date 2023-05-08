@@ -35,9 +35,3 @@ class Database:
             temp = l
             lista.append(temp.count_review())
 
-# db = Database('../JSON_dataset/dataset.csv')
-# db.init_DB()
-# db.Test_numero_ultima_recensione()
-# lista = []
-# db.Test_Conta_caratteri_totali(lista)
-# print(sum(lista))

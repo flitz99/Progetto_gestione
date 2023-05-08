@@ -16,8 +16,11 @@ search.inizializza()
 # sentiment_analyzer = input("Inserire analizzatore sentimento: ")
 # sentiment=input("Inserire sentimento: ")
 
-#results= search.submit_query(query,results_threshold=100,ricerca_precisa=False)
+query = "good book"
+results= search.submit_query(query,results_threshold=10,ricerca_precisa=False)
 
+for cont,r in enumerate(results):
+    print(cont,r)
 
 
 """"
