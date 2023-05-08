@@ -8,8 +8,7 @@ ho commentato per rendere la fase di testing più veloce senza dover fare sempre
 
 starter = Start_indexing()
 
-search = Index_Searcher()
-search.inizializza()
+
 
 # query= input("Inserire query: ")
 sentiment_analyzer = input("Inserire analizzatore sentimento: ")

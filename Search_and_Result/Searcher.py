@@ -9,15 +9,7 @@ from whoosh.qparser import QueryParser
 
 class Index_Searcher:
 
-    def __init__(self, *args):
-
-        self.ix = None
-        self.thesaurus = None
-        self.searcher = None
-        self.parser = None
-        self.inizializza()
-
-    def inizializza(self):
+    def __init__(self, algoritmo_di_ricerca = None):
 
         # ----  Apertura indice whoosh   ----
         try:
@@ -25,22 +17,18 @@ class Index_Searcher:
         except:
             raise OSError("Directory non trovata")
 
-        # print("index aperto")
-
         # ---- Apertura Thesaurus ----
         with open("../prolog/wn_s.pl") as file:
             self.thesaurus = Thesaurus.from_file(file)
 
-        # self.parser = qp.MultifieldParser(["reviewText"], schema=self.ix.schema, group=qp.OrGroup).parse("good book")
-        # results= self.ix.searcher().search(self.parser,limit=100)
+        if algoritmo_di_ricerca == "BM25F":
+            print("hai scelto di usare BM25F")
+            self.src = self.ix.searcher(weighting=scoring.BM25F)
+        else:
+            print("hai scelto di usare TF_IDF")
+            self.src = self.ix.searcher(weighting=scoring.TF_IDF())
 
-        # for cont,r in enumerate(results):
-        #     print(cont,r)
 
-        # Creo whoosh searcher
-
-        # scoring = eval("scoring.{}()".format("TF_IDF"))
-        # self.searcher = self.ix.searcher(weighting=scoring)
 
     def submit_query(self, query, results_threshold=100, ricerca_precisa=False):
 
@@ -55,13 +43,18 @@ class Index_Searcher:
             words.extend(sinonimi)  # aggiungo alla lista di ricerca
             stinga_di_ricerca = " ".join(words)  # trasforma la lista in una stringa_di_ricerca
 
-            self.parser = qp.MultifieldParser(["reviewText"], schema=self.ix.schema, group=qp.OrGroup).parse(
+            self.parser = qp.MultifieldParser(["reviewText"], schema=self.ix.schema, group=qp.OrGroup ).parse(
                  stinga_di_ricerca)
-            query_di_ricerca =self.ix.searcher().search(self.parser,limit=results_threshold)  # eseguo la ricerca usando la stringa
+
+
+            query_di_ricerca = self.src.search(self.parser, limit=results_threshold)
+
+
         else:
             self.parser = qp.MultifieldParser(["reviewText"], schema=self.ix.schema, group=qp.OrGroup).parse(
                 query)
-            query_di_ricerca = self.ix.searcher().search(self.parser, limit=results_threshold)
+
+            query_di_ricerca = self.src.search(self.parser, limit=results_threshold)
 
         if query_di_ricerca:
             print("result esistono")
