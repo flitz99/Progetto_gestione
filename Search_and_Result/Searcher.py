@@ -28,27 +28,23 @@ class Index_Searcher:
             print("hai scelto di usare TF_IDF")
             self.src = self.ix.searcher(weighting=scoring.TF_IDF())
 
-
-
     def submit_query(self, query, results_threshold=100, ricerca_precisa=False):
 
         if query[0] == '"' and query[-1] == '"':
             # significa che utente vuole la ricerca precisa quindi
             ricerca_precisa = True
 
-            # se non  è una ricerca precisa, cerca anche i sinonimi delle parole immesse
+        # se non è una ricerca precisa, cerca anche i sinonimi delle parole immesse
         if not ricerca_precisa:
             words = [stem(i) for i in query.split()]  # separo le parole
             sinonimi = [j for i in words for j in self.thesaurus.synonyms(i)]  # cerco sinonimi singole parole
             words.extend(sinonimi)  # aggiungo alla lista di ricerca
             stinga_di_ricerca = " ".join(words)  # trasforma la lista in una stringa_di_ricerca
 
-            self.parser = qp.MultifieldParser(["reviewText"], schema=self.ix.schema, group=qp.OrGroup ).parse(
+            self.parser = qp.MultifieldParser(["reviewText"], schema=self.ix.schema, group=qp.OrGroup).parse(
                  stinga_di_ricerca)
 
-
             query_di_ricerca = self.src.search(self.parser, limit=results_threshold)
-
 
         else:
             self.parser = qp.MultifieldParser(["reviewText"], schema=self.ix.schema, group=qp.OrGroup).parse(
@@ -57,10 +53,10 @@ class Index_Searcher:
             query_di_ricerca = self.src.search(self.parser, limit=results_threshold)
 
         if query_di_ricerca:
-            print("result esistono")
+            print("Sono presenti risultati")
             return query_di_ricerca
         else:
-            print("errore nella query")
+            print("Errore nella query")
 
     def Test_Controllo_Index(self, testo_test):
         ix = open_dir('../Indexing_Database/indexdir_2.0')

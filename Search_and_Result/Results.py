@@ -1,4 +1,5 @@
 
+
 class Results:
     '''
          ingresso risultati , analizzatore  , sentimento_passato
@@ -8,32 +9,60 @@ class Results:
                                 punteggio di pertinenza + punteggio di sentiment
         uscita lista oridnata
     '''
-    def __init__(self,tool_name,sentiment,results, textual_field = "text",ranking_fun = "balanced_weighted_avg"):
+    def __init__(self,tool_name,sentiment,results,ranking_fun = "balanced_weighted_avg"):
 
             self.sentiment_tool=tool_name
-            self.results = self.generate_results(results,"field")
-            self.ordered_results=None
+            self.sentiment=sentiment
+            self.raw_results = results
+            self.results= None
 
 
 
-    def generate_results(self, results,textual_field):
+    def generate_results(self):
 
-        
-        if not results:
-            raise Exception("Nessun risultato per questa query")
+        self.results=[]
 
-        self.ordered_results=[]
+        if self.sentiment_tool=="distilroberta":
+            #Se scelto distilroberta tengo solo risultati col sentimento selezionato in un dizionario
+            for hit in self.raw_results:
+                if hit["distilroberta_sentimento"] == self.sentiment:
+                    result=dict()
+                    result.update(dict(hit)) #aggiunge tutti i campi
+                    print(result)
+                    self.results.append(result)
 
-        for hit in results:
-            result=dict()
-            result["docnum"]=hit.docnum
-            result.update(dict(hit))
-            result["pert_score"]=hit.score
-            result["sent_score"]=hit.sentiment_score
+            return self.order_results()
 
-            self.ordered_results.append(result)
+        #Se scelto vader o textblob creo dizionario coi risultati
+        elif self.sentiment_tool == "Vader" or self.sentiment_tool == "TextBlob":
+            for hit in self.raw_results:
+                result = dict()
+                result.update(dict(hit))  # aggiunge tutti i campi
+                self.results.append(result)
 
-        return "prova"
+            return self.order_results()
+
+    def order_results(self):
+
+        if self.sentiment_tool=="distilroberta":
+            sent_ord = sorted(self.results, key=lambda d: d['distilroberta_sentimento_valore'], reverse=True)
+
+        #???? Usiamo valore compound o i valori singoli? ?????
+        elif self.sentiment_tool=="Vader":
+            if self.sentiment=="positivo":
+                sent_ord = sorted(self.results, key=lambda d: d['vader_valore_positivo'], reverse=True)
+            elif self.sentiment=="neutrale":
+                sent_ord = sorted(self.results, key=lambda d: d['vader_valore_neutrale'],reverse=True)
+            else: #Sentimento negativo
+                sent_ord = sorted(self.results, key=lambda d: d['vader_valore_negativo'], reverse=True)
+
+        elif self.sentiment_tool=="TextBlob": #usato textblob
+            if self.sentiment == "positivo":
+                sent_ord = sorted(self.results, key=lambda d: d['textblob_valore_positivo'],reverse=True)
+            else: #???? Se negativo (come faccio neutrale???) ?????
+                sent_ord = sorted(self.results, key=lambda d: d['textblob_valore_positivo'])
+
+        return sent_ord
 
     def check_sentiment(tool_name):
         if tool_name == "Vader" or tool_name=="Roberta":
