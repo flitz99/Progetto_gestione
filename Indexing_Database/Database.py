@@ -35,3 +35,9 @@ class Database:
             temp = l
             lista.append(temp.count_review())
 
+    def Benchmark_mode(self):
+        print("procedo a prendere 100 recensioni in modo casuale")
+        import random
+        updatedlist = random.sample(self.lista_recensioni,100)
+
+        self.lista_recensioni = updatedlist
