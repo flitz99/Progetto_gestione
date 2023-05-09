@@ -6,7 +6,7 @@ from tqdm import tqdm
 
 class Indexer:
 
-    def __init__(self, database):
+    def __init__(self, database, nome_dir= "indexdir_2.0"):
         self.database = database  # classe database
         self.schema = Schema(
             pk=ID(stored=True, analyzer=StemmingAnalyzer()),
@@ -21,10 +21,10 @@ class Indexer:
             vader_valore_compound=NUMERIC(float, stored=True),
             distilroberta_sentimento=TEXT(stored=True, analyzer=StemmingAnalyzer()),
             distilroberta_sentimento_valore=NUMERIC(float, stored=True),
-            textblob_valore_positivo=NUMERIC(float, stored=True),
-            textblob_valore_compound=NUMERIC(float, stored=True)
+            textblob_valore_polarita=NUMERIC(float, stored=True),
+            textblob_valore_soggetivita=NUMERIC(float, stored=True)
         )
-        self.nome_cartella = "indexdir_2.0"
+        self.nome_cartella = nome_dir
         if not os.path.exists(self.nome_cartella):
             os.mkdir(self.nome_cartella)
 
@@ -46,8 +46,8 @@ class Indexer:
                 vader_valore_compound=item[9],
                 distilroberta_sentimento=item[10],
                 distilroberta_sentimento_valore=item[11],
-                textblob_valore_positivo=item[12],
-                textblob_valore_compound=item[13]
+                textblob_valore_polarita=item[12],
+                textblob_valore_soggetivita=item[13]
 
             )
 

@@ -14,6 +14,7 @@ class Index_Searcher:
         # ----  Apertura indice whoosh   ----
         try:
             self.ix = open_dir('../Search_and_Result/indexdir_2.0')
+            #indexdir_2.0
         except:
             raise OSError("Directory non trovata")
 
@@ -69,3 +70,5 @@ class Index_Searcher:
             for x, y in enumerate(results):
                 print(x + 1)
                 print(y)
+
+

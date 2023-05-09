@@ -1,3 +1,4 @@
+import sys
 
 
 class Results:
@@ -9,18 +10,22 @@ class Results:
                                 punteggio di pertinenza + punteggio di sentiment
         uscita lista oridnata
     '''
-    def __init__(self,tool_name,sentiment,results,ranking_fun = "balanced_weighted_avg"):
 
-            self.sentiment_tool=tool_name
-            self.sentiment=sentiment
-            self.raw_results = results
-            self.results= None
+    def __init__(self, tool_name, sentiment, results, ranking_fun="balanced_weighted_avg"):
 
+        self.sentiment_tool = tool_name
+        self.sentiment = sentiment
+        self.raw_results = results
+        self.results = None
 
 
     def generate_results(self):
+        '''
 
-        self.results=[]
+        :return:
+        '''
+
+        self.results = []
 
         if self.sentiment_tool == "distilroberta":
             # Se scelto distilroberta tengo solo risultati col sentimento selezionato in un dizionario
@@ -70,20 +75,24 @@ class Results:
             return self.order_results()
 
     def order_results(self):
+        '''
 
-        if self.sentiment_tool=="distilroberta":
+        :return:
+        '''
+
+        if self.sentiment_tool == "distilroberta":
             sent_ord = sorted(self.results, key=lambda d: d['distilroberta_sentimento_valore'], reverse=True)
 
-        #???? Usiamo valore compound o i valori singoli? ?????
-        elif self.sentiment_tool=="Vader":
-            if self.sentiment=="positivo":
+        # ???? Usiamo valore compound o i valori singoli? ?????
+        elif self.sentiment_tool == "Vader":
+            if self.sentiment == "positivo":
                 sent_ord = sorted(self.results, key=lambda d: d['vader_valore_positivo'], reverse=True)
-            elif self.sentiment=="neutrale":
-                sent_ord = sorted(self.results, key=lambda d: d['vader_valore_neutrale'],reverse=True)
-            else: #Sentimento negativo
+            elif self.sentiment == "neutrale":
+                sent_ord = sorted(self.results, key=lambda d: d['vader_valore_neutrale'], reverse=True)
+            else:  # Sentimento negativo
                 sent_ord = sorted(self.results, key=lambda d: d['vader_valore_negativo'], reverse=True)
 
-        elif self.sentiment_tool=="TextBlob": #usato textblob
+        elif self.sentiment_tool == "TextBlob":  # usato textblob
             if self.sentiment == "positivo":
                 sent_ord = sorted(self.results, key=lambda d: d['textblob_valore_polarita'], reverse=True)
             else:  # Se negativo
