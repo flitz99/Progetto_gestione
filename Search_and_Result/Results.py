@@ -22,22 +22,49 @@ class Results:
 
         self.results=[]
 
-        if self.sentiment_tool=="distilroberta":
-            #Se scelto distilroberta tengo solo risultati col sentimento selezionato in un dizionario
-            for hit in self.raw_results:
+        if self.sentiment_tool == "distilroberta":
+            # Se scelto distilroberta tengo solo risultati col sentimento selezionato in un dizionario
+            for cont, hit in enumerate(self.raw_results):
                 if hit["distilroberta_sentimento"] == self.sentiment:
-                    result=dict()
-                    result.update(dict(hit)) #aggiunge tutti i campi
-                    print(result)
+                    result = dict()
+                    result["title"] = hit["title"]
+                    result["categoria"] = hit["categoria"]
+                    result["reviewerName"] = hit["reviewerName"]
+                    result["reviewText"] = hit["reviewText"]
+                    result["distilroberta_sentimento_valore"] = hit["distilroberta_sentimento_valore"]
+                    result["textblob_valore_polarita"] = hit["textblob_valore_polarita"]
+                    result["pos_pertinenza"] = cont + 1
+                    # result.update(dict(hit)) #aggiunge tutti i campi
                     self.results.append(result)
 
             return self.order_results()
 
-        #Se scelto vader o textblob creo dizionario coi risultati
-        elif self.sentiment_tool == "Vader" or self.sentiment_tool == "TextBlob":
-            for hit in self.raw_results:
+        # Se scelto vader
+        elif self.sentiment_tool == "Vader":
+            for cont, hit in enumerate(self.raw_results):
                 result = dict()
-                result.update(dict(hit))  # aggiunge tutti i campi
+                result["title"] = hit["title"]
+                result["categoria"] = hit["categoria"]
+                result["reviewerName"] = hit["reviewerName"]
+                result["reviewText"] = hit["reviewText"]
+                result["vader_valore_positivo"] = hit["vader_valore_positivo"]
+                result["vader_valore_neutrale"] = hit["vader_valore_neutrale"]
+                result["vader_valore_negativo"] = hit["vader_valore_negativo"]
+                result["pos_pertinenza"] = cont + 1
+                self.results.append(result)
+
+            return self.order_results()
+
+        # Se scelto Textblob
+        elif self.sentiment_tool == "TextBlob":
+            for cont, hit in enumerate(self.raw_results):
+                result = dict()
+                result["title"] = hit["title"]
+                result["categoria"] = hit["categoria"]
+                result["reviewerName"] = hit["reviewerName"]
+                result["reviewText"] = hit["reviewText"]
+                result["textblob_valore_polarita"] = hit["textblob_valore_polarita"]
+                result["pos_pertinenza"] = cont + 1
                 self.results.append(result)
 
             return self.order_results()
@@ -58,13 +85,55 @@ class Results:
 
         elif self.sentiment_tool=="TextBlob": #usato textblob
             if self.sentiment == "positivo":
-                sent_ord = sorted(self.results, key=lambda d: d['textblob_valore_positivo'],reverse=True)
-            else: #???? Se negativo (come faccio neutrale???) ?????
-                sent_ord = sorted(self.results, key=lambda d: d['textblob_valore_positivo'])
+                sent_ord = sorted(self.results, key=lambda d: d['textblob_valore_polarita'], reverse=True)
+            else:  # Se negativo
+                sent_ord = sorted(self.results, key=lambda d: d['textblob_valore_polarita'])
+
+        for cont, hit in enumerate(sent_ord):
+            hit["pos_sentiment"] = cont + 1
+
+        for hit in sent_ord:
+            hit["ranking"] = hit["pos_sentiment"] * hit["pos_pertinenza"]
+
+        sent_ord = sorted(sent_ord, key=lambda d: d['ranking'])
 
         return sent_ord
 
-    def check_sentiment(tool_name):
-        if tool_name == "Vader" or tool_name=="Roberta":
-            return True
-        return False
+    def print_results_txt(self, results, output='console'):
+        '''
+
+        :param results:
+        :param output:
+        :return:
+        '''
+
+        if not output == 'console':
+            import sys
+            f = open('text.txt', 'w')
+            sys.stdout = f
+
+        for cont, r in enumerate(results):
+            print("Ranking_finale: ", cont)
+            print(f"Categoria: {r['categoria']}, Nome del prodotto : {r['title']} ")
+            print(f"Autore recensione: {r['reviewerName']}")
+            print(f"Testo recensione: {r['reviewText']}")
+            print(f"Ranking pertinenza: {r['pos_pertinenza']}  ")
+            print(f"Ranking sentimento: {r['pos_sentiment']}  ")
+            print(self.sentiment_tool)
+            if self.sentiment_tool == 'Vader':
+                if self.sentiment == 'positivo':
+                    print(f"valore_sentimento = {r['vader_valore_positivo']}")
+                if self.sentiment == 'neutrale':
+                    print(f"valore_sentimento = {r['vader_valore_neutrale']}")
+                if self.sentiment == 'negativo':
+                    print(f"valore_sentimento = {r['vader_valore_negativo']}")
+            if self.sentiment_tool == "TextBlob":
+                print(f"valore_sentimento = {r['textblob_valore_polarita']}")
+            if self.sentiment_tool == 'distilroberta':
+                print(f"valore_sentimento = {r['distilroberta_sentimento_valore']} ")
+                print(f"valore_sentimento = {r['textblob_valore_polarita']}")
+
+            print('++++++++++++++++++++++++++++++++++++++++++++++++++++++++')
+
+        if not output == 'console':
+            f.close()
