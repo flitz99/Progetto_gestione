@@ -54,7 +54,7 @@ class Index_Searcher:
             query_di_ricerca = self.src.search(self.parser, limit=results_threshold)
 
         if query_di_ricerca:
-            print("Sono presenti risultati")
+            #print("Sono presenti risultati")
             return query_di_ricerca
         else:
             print("Errore nella query")

@@ -108,7 +108,7 @@ class Results:
 
         return sent_ord
 
-    def print_results_txt(self, results, output='console'):
+    def print_results_txt(self, results, output='console', nome_file='output.txt'):
         '''
 
         :param results:
@@ -118,11 +118,11 @@ class Results:
 
         if not output == 'console':
             import sys
-            f = open('text.txt', 'w')
+            f = open(nome_file, 'w')
             sys.stdout = f
 
         for cont, r in enumerate(results):
-            print("Ranking_finale: ", cont)
+            print("Ranking_finale: ", cont+1)
             print(f"Categoria: {r['categoria']}, Nome del prodotto : {r['title']} ")
             print(f"Autore recensione: {r['reviewerName']}")
             print(f"Testo recensione: {r['reviewText']}")
