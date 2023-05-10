@@ -32,6 +32,7 @@ class Results:
             for cont, hit in enumerate(self.raw_results):
                 if hit["distilroberta_sentimento"] == self.sentiment:
                     result = dict()
+                    result["pk"] = hit["pk"]
                     result["title"] = hit["title"]
                     result["categoria"] = hit["categoria"]
                     result["reviewerName"] = hit["reviewerName"]
@@ -48,6 +49,7 @@ class Results:
         elif self.sentiment_tool == "Vader":
             for cont, hit in enumerate(self.raw_results):
                 result = dict()
+                result["pk"] = hit["pk"]
                 result["title"] = hit["title"]
                 result["categoria"] = hit["categoria"]
                 result["reviewerName"] = hit["reviewerName"]
@@ -64,6 +66,7 @@ class Results:
         elif self.sentiment_tool == "TextBlob":
             for cont, hit in enumerate(self.raw_results):
                 result = dict()
+                result["pk"] = hit["pk"]
                 result["title"] = hit["title"]
                 result["categoria"] = hit["categoria"]
                 result["reviewerName"] = hit["reviewerName"]
