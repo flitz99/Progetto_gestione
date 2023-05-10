@@ -9,11 +9,11 @@ from whoosh.qparser import QueryParser
 
 class Index_Searcher:
 
-    def __init__(self, algoritmo_di_ricerca = None):
+    def __init__(self, algoritmo_di_ricerca = None , index='../Search_and_Result/indexdir_2.0'):
 
         # ----  Apertura indice whoosh   ----
         try:
-            self.ix = open_dir('../Search_and_Result/indexdir_2.0')
+            self.ix = open_dir(index)
             #indexdir_2.0
         except:
             raise OSError("Directory non trovata")
