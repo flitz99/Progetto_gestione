@@ -38,6 +38,9 @@ class Database:
     def Benchmark_mode(self):
         print("procedo a prendere 100 recensioni in modo casuale")
         import random
-        updatedlist = random.sample(self.lista_recensioni,100)
+        #solo_film = filter(lambda l: l[5] == 'Movies and TV', self.lista_recensioni)
+        solo_film = [l for l in self.lista_recensioni if l[5] == 'Movies and TV']
+
+        updatedlist = random.sample(solo_film, 100)
 
         self.lista_recensioni = updatedlist

@@ -1,0 +1,225 @@
+Ranking_finale:  0
+Categoria: Movies and TV  Nome del prodotto : SLC Punk 
+Autore recensione: Michael Bregman
+Testo recensione: SLC Punk is a great example of what happens when the ideals of youth wear thin, and when one is forced to make a choice that entails giving up a lifestyle, that while is a definite road to nowhere, is very near and dear to the heart, and chooseing a secure future, but said future is the very embodiment of all that you held dear stood against. Especially when you know that the secure future is the right chioce.
+Ranking pertinenza: 1  
+Ranking sentimento: 5  
+TextBlob
+valore_sentimento = 0.11659340659340658
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ranking_finale:  1
+Categoria: Movies and TV  Nome del prodotto : Resident Evil: Apocalypse 
+Autore recensione: The One
+Testo recensione: I went to the theater expecting as usual a bad movie for a good game will it was nothing as i expected, It was just Splashing active bloody movie, I was thrilled from the story the visual effects & sound effects, I mean you are on your feet tell the end of the movie it's a different story to the usual resident evil problem...!!!  I won't say anything about the movie but it's a good one, so if you like action, science fiction, and real horror just see it.!
+Ranking pertinenza: 6  
+Ranking sentimento: 2  
+TextBlob
+valore_sentimento = -0.07034313725490195
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ranking_finale:  2
+Categoria: Cd e Vynil  Nome del prodotto : Table Time for Tots Children VHS 
+Autore recensione: Just Mike
+Testo recensione: I just didn't 'get' this. Was there any back story that I missed? Its about kids who come down with this ?virus? and start killing the adults in various gruesome ways. There didn't seem to be any point. Whoever made this movie simply wanted to showcase the art of gruesome deaths on screen? A good horror movie needs a good story to back up the special effects. And the occasional moody shot of gaunt trees in winter doesn't cut it either. Just not a good horror movie.
+Ranking pertinenza: 17  
+Ranking sentimento: 1  
+TextBlob
+valore_sentimento = -0.062367724867724905
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ranking_finale:  3
+Categoria: Movies and TV  Nome del prodotto : A River Runs Through It 
+Autore recensione: Curtis Hickman
+Testo recensione: Way back in English Lit, University of Oregon, 25 years ago, I remember one idea that that once something achieves perfection in anything, it self distructs, always.  A near perfect chair exists, a near perfect painting, a near perfect poem, a near pefect fly fisherman. But none of these exist in a perfect form.  There is only one perfection and to attempt to mimimic it assures distruction. This movie portrays that notion, just fine.
+Ranking pertinenza: 2  
+Ranking sentimento: 21  
+TextBlob
+valore_sentimento = 0.43205128205128207
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ranking_finale:  4
+Categoria: Cd e Vynil  Nome del prodotto : Contraband Ed 
+Autore recensione: That Reviewer
+Testo recensione: This CD comes with copy protection software, which, when installed, wrecks havoc on your computer and instantly compromises your online security and safety.  Ugly, malicious forms of spyware are loaded, and your PC will soon be hijacked.  Is this any way to treat customers?  I love VR, but Sony/BMG must do away with copy protection and respect our RIGHT to make legitimate copies as we so desire.  After all, the number of music fans with iPods is growing.
+Ranking pertinenza: 18  
+Ranking sentimento: 3  
+TextBlob
+valore_sentimento = 0.021428571428571436
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ranking_finale:  5
+Categoria: Cd e Vynil  Nome del prodotto : Comatose 
+Autore recensione: MadMom
+Testo recensione: I LOVE rock music and this album is pretty good. I got an MP3 download as well as the album for only $5! First off there are a couple of tracks that are really good. Comatose and Whispers in the Dark are so good. Sounds so good in my rockin' sound system! Since I bought this I would love to see them live and they are coming to a town near you this summer!
+Ranking pertinenza: 3  
+Ranking sentimento: 18  
+TextBlob
+valore_sentimento = 0.37779720279720286
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ranking_finale:  6
+Categoria: Cd e Vynil  Nome del prodotto : Stevie Nicks - Live at Red Rocks 1987  VHS 
+Autore recensione: RhiannonJB@Excite.com
+Testo recensione: I beleive that this video is a must have for any serious Stevie fan.  Just popping this tape into the VCR and seeing the opening scene of Stevie's plane flying over Red Rocks and the effect of her voice echoing through the  mountains is enough to give me goosebumps.  This is one of my favorite  videos ever.  The visual effects/settings are out of this world. A definite  must have for anyone who has ever said "Wow!" over Stevie.
+Ranking pertinenza: 16  
+Ranking sentimento: 4  
+TextBlob
+valore_sentimento = 0.04166666666666667
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ranking_finale:  7
+Categoria: Cd e Vynil  Nome del prodotto : Sheryl Crow: Rockin' the Globe Live VHS 
+Autore recensione: M.J.J. Nuchelmans
+Testo recensione: Bought this DVD Yesterday. I play it in Dolby Stereo, Sound is not that well mixed. That said it is very entertaining and you can solve this sound problem if you juggle the bass and treble dials a bit. If compared to "The Eagles - Hell Freezes Over", this is noway near as well balanced, but it really captures the "Sheryl Crow Live" experience. There are much better mixed DVD's, but this is far from a bad buy. Buy it, you will not regret it.
+Ranking pertinenza: 12  
+Ranking sentimento: 7  
+TextBlob
+valore_sentimento = 0.13636363636363644
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ranking_finale:  8
+Categoria: Cd e Vynil  Nome del prodotto : Mannheim Steamroller - Christmas Live 
+Autore recensione: V. M. Morales
+Testo recensione: The first dvd was corrupted.  The sound was distored, as well as not even.  It would get loud, then drop in volume, then get loud again and did not sound right at all.  The replacement dvd was very good.  Sound was even and consistent.  However, I do not understand that why the second dvd is different from the first.  The begining of the the first is different from the second.  Either way, the second dvd is good and I will enjoy watching it durning the holidays.  Victor Morales
+Ranking pertinenza: 7  
+Ranking sentimento: 12  
+TextBlob
+valore_sentimento = 0.22753968253968257
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ranking_finale:  9
+Categoria: Cd e Vynil  Nome del prodotto : AC/DC - No Bull Plaza De Toros De Las Ventas, Madrid  VHS 
+Autore recensione: Mario Medina
+Testo recensione: IN RESPONSE OF A REVIEW THAT I JUST READ ABOUT THIS DVD, THE DOLBY DIGITAL TRACK IS 5.0, NOT 5.1. THIS MAKES YOU PRACTICALLY "BASSLESS" IF YOU HAVE A HOME THEATER WITH 5 SPEAKERS AND A SUBWOOFER, THIS LAST ONE WILL NOT SOUND AT ALL. HOWEVER YOU CAN FIX THIS LITTLE PROBLEM BY LISTENING TO THE 2.0 (STEREO) SOUND AND USE YOUR DOLBY PRO LOGIC DECODER ON THE HOME THEATER RECEIVER OR AMP, YOU'LL HAVE BEST SURROUND SOUND THIS WAY AND YOUR SUBWOOFER WILL DO HIS JOB VERY WELL.
+Ranking pertinenza: 9  
+Ranking sentimento: 10  
+TextBlob
+valore_sentimento = 0.2015625
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ranking_finale:  10
+Categoria: Cd e Vynil  Nome del prodotto : Learning Basic Skills Through Music - Vol 2 CD 
+Autore recensione: Kathy Thompson
+Testo recensione: A Great addition to the skills taught in the Basic Skills Vol. I.  A wonderful way to practice new skills learned.
+Ranking pertinenza: 4  
+Ranking sentimento: 23  
+TextBlob
+valore_sentimento = 0.4840909090909091
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ranking_finale:  11
+Categoria: Movies and TV  Nome del prodotto : Close Encounters of the Third Kind VHS 
+Autore recensione: Jonathan
+Testo recensione: I just saw this a couple days ago for the first time.  I had no real clue about the movie, just that it was something about aliens.  I have to admit, I really fell in love with it.  It's nowhere near as dazzling as the special effects produced today, but it is still quite good.  The visuals are still amazing, despite how old the technology for it is.  If you like sci-fi stuff, and haven't seen this, do so.  Maybe it's not as good as star wars, but it's still good.
+Ranking pertinenza: 5  
+Ranking sentimento: 19  
+TextBlob
+valore_sentimento = 0.4047619047619048
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ranking_finale:  12
+Categoria: Cd e Vynil  Nome del prodotto : Crystal Clear 
+Autore recensione: Larry Gill
+Testo recensione: Though Jaci is much younger than I, I found this to be a truly well done and well produced lp by a talented young lady who proves she is not subject to pop trends. I am a die hard prog fan and ccm collector as well. This lp is musically balanced and the players show top notch ability and skill in each track. Her voice is as pretty as her face and she can vary her style from soft to intense. Worshipful as well as upbeat.
+Ranking pertinenza: 14  
+Ranking sentimento: 8  
+TextBlob
+valore_sentimento = 0.17651515151515149
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ranking_finale:  13
+Categoria: Movies and TV  Nome del prodotto : Air Force One 
+Autore recensione: Robert Hedstrom
+Testo recensione: Another fannytastic drama with the very great actor, Harrison Ford. There is one flaw right up front; the terrorists who came on board with the President would have never passed security; in fact, what happens at the beginning would never happen in reality. All these unknown men about nine of em just get onboard Air Force One, and it is not clear why security failed to apprehend any of them. This is glossed over fast. I think it's another great H. Ford movie nonetheless.
+Ranking pertinenza: 8  
+Ranking sentimento: 14  
+TextBlob
+valore_sentimento = 0.23367346938775507
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ranking_finale:  14
+Categoria: Movies and TV  Nome del prodotto : Fright Night 
+Autore recensione: Christina Sabo
+Testo recensione: THE PICTURE AND SOUND QUALITY IS GOOD. THE MOVIE ITSELF IS PRETTY GOOD CONSIDERING, THOUGH IT'S NO EXORCIST. I AM UPSET ABOUT THE FORMAT. THE ONLY REASON I GOT THIS IS BECAUSE IT STATED IT WAS IN FULL SCREEN AND WIDE SCREEN FORMAT. IT ENDED UP BEING ONLY WIDE SCREEN FORMAT. I WANTED A FULL SCREEN FORMAT. I DON'T LIKE WIDE SCREEN FORMAT. OTHER THAN THE QUALITY OF THE MOVIE AND THE MOVIE ITSELF, I'M UNHAPPY WITH THE TRANSACTION.
+Ranking pertinenza: 19  
+Ranking sentimento: 6  
+TextBlob
+valore_sentimento = 0.13269230769230766
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ranking_finale:  15
+Categoria: Cd e Vynil  Nome del prodotto : Ram 
+Autore recensione: J Allen
+Testo recensione: Dear Boy: This is in fact a treat for anyone that enjoys the art of mixing. Clean and neat in it's simplicity and just a joy to listen to. Uncle Albert is Abby Road and the White album together. While MY Dog is foot tapping fun that you will sing over and over in your head while Dear Boy Is a symphony of voices that with send rushes to your very soul. A slow Sunday morning deserves to be laced with these sounds.
+Ranking pertinenza: 10  
+Ranking sentimento: 13  
+TextBlob
+valore_sentimento = 0.22777777777777777
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ranking_finale:  16
+Categoria: Cd e Vynil  Nome del prodotto : Comatose 
+Autore recensione: Evan M. Vickers
+Testo recensione: I wanted to like this CD. But let's face it, after the first 2 songs it all just starts to sound cloned. Is this what a good album is supposed to sound like? I remember when every Skillet track had a unique sound, but alas, those days are gone.  If you like music that all sounds the same as the last track, this is a great CD for you. Otherwise purchase the first, second, and last track by themselves. They are really the only tracks that matter.
+Ranking pertinenza: 15  
+Ranking sentimento: 11  
+TextBlob
+valore_sentimento = 0.225
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ranking_finale:  17
+Categoria: Cd e Vynil  Nome del prodotto : Escape from Hell 
+Autore recensione: William E. Sanders
+Testo recensione: I order & watched this movie last year, and as far as Christian films go, I personally have seen MUCH better-I can't explain it too well, except that the acting was just OK, and the film type they used felt home-movieish & amateurish.  The messages they were conveying were right on the money, tho. The special effects were good, tho, and the idea about the sign on top of the hospital was really clever.  Would I buy it again?  Hmm, probably not. It didn't give me chills once.
+Ranking pertinenza: 24  
+Ranking sentimento: 9  
+TextBlob
+valore_sentimento = 0.18534798534798533
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ranking_finale:  18
+Categoria: Movies and TV  Nome del prodotto : Iron Eagle 
+Autore recensione: john thomas
+Testo recensione: This came out I think around the time time as Top Gun.  And was overshadowed by it.  You just have to watch the movie.  It's good on it's ow.  You just have to tell yourself it's just a movie.  Because most of the plot is unbelievable,  The acting by Lou Gossett Jr. is good.  And I just watched Executive Decision yesterday.  And David Suchet is a good as a terrorist.
+Ranking pertinenza: 11  
+Ranking sentimento: 20  
+TextBlob
+valore_sentimento = 0.4071428571428571
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ranking_finale:  19
+Categoria: Cd e Vynil  Nome del prodotto : The Happiest Baby on the Block 
+Autore recensione: Amazon Customer
+Testo recensione: What a great DVD! It is a must have for any new parent. It was so beneficial to have a visual guide for the 5 calming techniques.  It has really made our lives easier and reduced the stress of having a newborn. Our baby sleeps more soundly and is very happy and content. As a bonus, there are also calming sounds on the DVD which soothe the baby. You will not be disappointed!!!
+Ranking pertinenza: 13  
+Ranking sentimento: 17  
+TextBlob
+valore_sentimento = 0.27954545454545454
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ranking_finale:  20
+Categoria: Cd e Vynil  Nome del prodotto : Goodbye Worries 
+Autore recensione: Georgeanne Hyatt
+Testo recensione: This safe my life & my cats calm right down as soon as they hear it. Roberta Shapiro helped me develop a safe place to do therapy. Very important part of my recovery from prolong complex ptsd.
+Ranking pertinenza: 20  
+Ranking sentimento: 15  
+TextBlob
+valore_sentimento = 0.2357369614512472
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ranking_finale:  21
+Categoria: Cd e Vynil  Nome del prodotto : Escape from Hell 
+Autore recensione: Brandy
+Testo recensione: For as much hype as there was about this movie, it was not as good as I expected. Actors did a fair job with acting. I don't know how old the movie is, but effects in it weren't good either. Good plot, it was just not done very good. Sorry I spent the money, but thats the only way to find out.
+Ranking pertinenza: 23  
+Ranking sentimento: 16  
+TextBlob
+valore_sentimento = 0.2758333333333333
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ranking_finale:  22
+Categoria: Cd e Vynil  Nome del prodotto : Neil Young - Silver &amp; Gold 
+Autore recensione: Chris broadstock
+Testo recensione: This video is probably his best since the Live Rust video back in 79`.The  playing is beautiful and honest. I think Neil is at his best when he plays  acoustic music,I also dig his  eletric stuff. Long may you run sounds really  good on pump organ maybe even better than the original on the Long may you  run lp. It is also good hearing the tracks from Silver& gold just done  solo. I recomend this video to any Neil Young fan
+Ranking pertinenza: 22  
+Ranking sentimento: 22  
+TextBlob
+valore_sentimento = 0.4508741258741259
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ranking_finale:  23
+Categoria: Movies and TV  Nome del prodotto : Taxi Driver 
+Autore recensione: Nick Deckard
+Testo recensione: Buy it!  Taxi Driver has never looked anywhere near this good. Or sounded! This is a great package - really nice heavy duty slipbook packaging with some great art cards as well which are asking to be framed.  Too many great bits for me to mention but one of my favourites is Scorsese himself as one of De Niro's passengers - unforgettable!  To UK/Euro buyers - this one works fine on UK/Euro blu-ray players and I think this package beats the UK edition - and is just as cheap.  Total bargain!
+Ranking pertinenza: 21  
+Ranking sentimento: 24  
+TextBlob
+valore_sentimento = 0.5076388888888889
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ranking_finale:  24
+Categoria: Cd e Vynil  Nome del prodotto : Supernatural 
+Autore recensione: Kristin
+Testo recensione: I think that this is a great cd.  I read in another review that Santana should not have begun mixing hip-hop into his music...  I think that it was a great move for Santana.  It's a new sound that a lot of people like.  Santana was great before, and he's just as good now.  A good artist needs  to do some changing sometimes... he did.  Even though he is using some  hip-hop on his new album, you can also hear his great guitar skills.
+Ranking pertinenza: 25  
+Ranking sentimento: 25  
+TextBlob
+valore_sentimento = 0.585858585858586
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
