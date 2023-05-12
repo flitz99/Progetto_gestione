@@ -12,6 +12,7 @@ transformers = "*"
 textblob = "*"
 vadersentiment = "*"
 tensorflow = "*"
+matplotlib = "*"
 
 [dev-packages]
 

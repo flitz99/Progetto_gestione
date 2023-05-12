@@ -18,6 +18,17 @@ class Results:
         self.raw_results = results
         self.results = None
 
+    def generate_results_benchmark(self):
+        self.results = []    #
+
+        if self.sentiment_tool == "Vader": #sempre Vader
+            for cont, hit in enumerate(self.raw_results):
+                result = dict()
+                result.update(dict(hit))  # aggiunge tutti i campi
+                result["pos_pertinenza"] = cont + 1
+                self.results.append(result)
+
+        return self.order_results()
 
     def generate_results(self):
         '''
