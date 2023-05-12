@@ -30,7 +30,6 @@ def calcola_dcg(lista_ordinata,dict_key):
 
 
 
-
 from Search_and_Result.Searcher import Index_Searcher
 from Search_and_Result.Results import Results
 
