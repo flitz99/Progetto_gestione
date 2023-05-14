@@ -23,10 +23,10 @@ class Index_Searcher:
             self.thesaurus = Thesaurus.from_file(file)
 
         if algoritmo_di_ricerca == "BM25F":
-            print("hai scelto di usare BM25F")
+            print("Hai scelto di usare BM25F \n")
             self.src = self.ix.searcher(weighting=scoring.BM25F)
         else:
-            print("hai scelto di usare TF_IDF")
+            print("Hai scelto di usare TF_IDF \n")
             self.src = self.ix.searcher(weighting=scoring.TF_IDF())
 
     def submit_query(self, query, results_threshold=100, ricerca_precisa=False):
@@ -53,11 +53,12 @@ class Index_Searcher:
 
             query_di_ricerca = self.src.search(self.parser, limit=results_threshold)
 
+
         if query_di_ricerca:
-            #print("Sono presenti risultati")
+            print(f"Sono presenti {len(query_di_ricerca)} risultati. \n")
             return query_di_ricerca
         else:
-            print("Errore nella query")
+            print("Non sono presenti risultati.")
 
     def Test_Controllo_Index(self, testo_test):
         ix = open_dir('../Indexing_Database/indexdir_2.0')
@@ -70,5 +71,8 @@ class Index_Searcher:
             for x, y in enumerate(results):
                 print(x + 1)
                 print(y)
-
+    def check_results(self,results):
+        if len(results) > 0:
+            return True
+        return False
 

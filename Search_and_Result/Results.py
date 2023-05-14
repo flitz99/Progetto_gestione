@@ -122,7 +122,7 @@ class Results:
 
         return sent_ord
 
-    def print_results_txt(self, results, output='console', nome_file='output.txt'):
+    def print_results_txt(self, results, output='console', nome_file='output.txt', limit=100):
         '''
 
         :param results:
@@ -135,14 +135,17 @@ class Results:
             f = open(nome_file, 'w')
             sys.stdout = f
 
+        print('---------------------------------------------------- RISULTATI ----------------------------------------------------')
         for cont, r in enumerate(results):
+            if cont == limit:
+                break
             print("Ranking_finale: ", cont+1)
             print(f"Categoria: {r['categoria']}, Nome del prodotto : {r['title']} ")
             print(f"Autore recensione: {r['reviewerName']}")
             print(f"Testo recensione: {r['reviewText']}")
             print(f"Ranking pertinenza: {r['pos_pertinenza']}  ")
             print(f"Ranking sentimento: {r['pos_sentiment']}  ")
-            print(self.sentiment_tool)
+            print(f"Sentiment analyzer: {self.sentiment_tool} ")
             if self.sentiment_tool == 'Vader':
                 if self.sentiment == 'positivo':
                     print(f"valore_sentimento = {r['vader_valore_positivo']}")

@@ -4,14 +4,14 @@ from Indexing_Database import Indexing as indx
 class Start_indexing:
 
     def __init__(self):
-        print("controllo se Index Esiste")
+        print("Controllo se Index Esiste...")
         self.crea_index_se_non_esiste()
 
     def crea_index_se_non_esiste(self):
         is_index_dir = os.path.exists('../Search_and_Result/indexdir_2.0')
 
         if not is_index_dir:
-            print("index non esiste attendere la sua creazione")
+            print("Index non esistente,  attendere la sua creazione... \n")
             db = datab.Database('../JSON_dataset/dataset_sentiment.csv')
             db.init_DB()
 
@@ -22,4 +22,4 @@ class Start_indexing:
                 print("fallimento")
 
         else:
-            print("index esiste , Ready to go!")
+            print("L'index esiste, Ready to go! \n")
