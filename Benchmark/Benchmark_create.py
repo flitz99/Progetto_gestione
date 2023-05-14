@@ -8,14 +8,17 @@ from tqdm import tqdm
 
 
 def create_benchmark():
+    '''
+    usando il file CSV della sentiment prendiamo casualmente 100 entries per creare un csv con campi vuoti
+    per inserire il voto del DCG a mano
+    :return:
+    '''
     db = datab.Database('../JSON_dataset/dataset_sentiment.csv')
     db.init_DB()
-    db.Benchmark_mode()  # sceglie 100 recensioni a caso
+    db.Benchmark_mode()  # sceglie 100 recensioni di film a caso
     a = len(db.lista_recensioni)
     print(a)
 
-    for b in db.lista_recensioni:
-        print(b)
 
     if a == 100:
         index = indx.Indexer(db, 'index_benchmark')
@@ -47,8 +50,9 @@ def create_benchmark():
 
 def create_index_from_csv():
     '''
-    funzione da chiamare dopo aver assegnato a mano i valori DCG
-    :return:
+    Crea un index whoosh a partire da un file CSV
+    :return: nullo
+
     '''
     print("index non esiste attendere la sua creazione")
     db = datab.Database('../Benchmark/benchmark_DCG.csv')

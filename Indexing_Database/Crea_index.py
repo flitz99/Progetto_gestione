@@ -1,6 +1,6 @@
 import os
-from Indexing_Database import Database as datab
-from Indexing_Database import Indexing as indx
+from Indexing_Database import Database as DATAB
+from Indexing_Database import Indexing as INDX
 class Start_indexing:
 
     def __init__(self):
@@ -12,10 +12,10 @@ class Start_indexing:
 
         if not is_index_dir:
             print("Index non esistente,  attendere la sua creazione... \n")
-            db = datab.Database('../JSON_dataset/dataset_sentiment.csv')
+            db = DATAB.Database('../JSON_dataset/dataset_sentiment.csv')
             db.init_DB()
 
-            index = indx.Indexer(db)
+            index = INDX.Indexer(db)
             index.create_index()
 
             if index.ix.is_empty() == True:

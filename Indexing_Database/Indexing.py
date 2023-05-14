@@ -5,6 +5,9 @@ from whoosh.fields import Schema, TEXT, ID, NUMERIC
 from tqdm import tqdm
 
 class Indexer:
+    '''
+    classe usata per scegliere il formato del index predefinito
+    '''
 
     def __init__(self, database, nome_dir= "indexdir_2.0"):
         self.database = database  # classe database
@@ -32,6 +35,10 @@ class Indexer:
         self.w = self.ix.writer()
 
     def create_index(self):
+        '''
+        crea un index a patire da una lsita di recensioni (classe recensione.py)
+        :return: nullo
+        '''
         for item in tqdm(self.database.lista_recensioni):
             self.w.add_document(
                 pk=item[0],
