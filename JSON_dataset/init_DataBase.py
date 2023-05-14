@@ -10,6 +10,7 @@ import Sentiment_analyzer as sa
 
 def start(file_path, lista):
     """
+    Carica
     :param file_path:  path del file json da leggere
     :param lista:  lista vuota che verra riempita con gli oggetti letti dal file json
     :return: none, riempe la lista per reference

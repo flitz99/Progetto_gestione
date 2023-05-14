@@ -16,6 +16,15 @@ queries = {
 
 import math
 def calcola_dcg(lista_ordinata,dict_key):
+    '''
+    Calcola il dcg dato una lista di dizionari e chiavi dizionari
+
+    l'uso della formula dove il primo valore
+    viene preso interamente e susseguenti vengono divisi per il logarithm
+    :param lista_ordinata: una lista  contenente dizionari con tutte le recensioni con tutti i loro dati compreso DCG
+    :param dict_key: chiave dizionario
+    :return:
+    '''
 
 
     lista_valori_dcg = []
@@ -38,8 +47,9 @@ Index_benchmark = Index_Searcher(index="../Benchmark/benchmark_index")
 
 lunghezza_querries = []
 dcg_values=[]
-contatore = 0
+
 for dict_key , dict_values in queries.items():
+    #faccio la ricerca per ogni querrie sull'index del benchmark
     relevant_results = Index_benchmark.submit_query(dict_values, results_threshold=100,
                                            ricerca_precisa=False)  # Ricerca query nell'index
     try:
@@ -62,18 +72,6 @@ for dict_key , dict_values in queries.items():
     temp["NDCG"] = valore_dcg/valore_dcg_ottimale
     dcg_values.append(temp)
 
-    #   dcg_ranking = pertinenza + sentimento       --> order_results
-    #   dcg_ottimale  = in ordine del valore DCG    --> ordinamento_ottimale
-    #  NDCG =  dcg_ranking / dcg_ottimale
-
-    # print("quarries :",dict_values ,"valore dcg : ", calcola_dcg(order_results, dict_key))
-    # for result in order_results:
-    #     print(f"\t\t\t\t\t{result['pk']} \t  \t  {result[dict_key]}")
-    # print("\n\n")
-
-# for dict in dcg_values:
-#     print(dict)
-#     print()
 
 #creazione dei grafici
 def plot_graph(data, measure, file_name):
