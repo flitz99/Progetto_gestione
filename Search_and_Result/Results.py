@@ -3,7 +3,7 @@ import sys
 
 class Results:
     '''
-         ingresso risultati , analizzatore  , sentimento_passato
+         Ingresso risultati, analizzatore , sentimento_passato
          - riordinare
          - filtraggio selettivo
          - ranking function -> ordina i risultati in base alla combinazione
@@ -19,6 +19,10 @@ class Results:
         self.results = None
 
     def generate_results_benchmark(self):
+        '''
+        si occupa di gestire i risultati trovati dalle querries
+        :return: la lista dei risultati
+        '''
         self.results = []    #
 
         if self.sentiment_tool == "Vader": #sempre Vader
@@ -32,8 +36,8 @@ class Results:
 
     def generate_results(self):
         '''
-
-        :return:
+        prende i risultati trovati nell'index e li trasforma in un dizionario
+        :return:  la funzione di ordinamento, chiamata con il dizionario appena creato
         '''
 
         self.results = []
@@ -90,7 +94,9 @@ class Results:
 
     def order_results(self):
         '''
-
+            Ordina i risultati per valore di sentimetno pre-calcolato
+            positivo in modo decrescente
+            negativo in modo cerscente
         :return:
         '''
 
@@ -125,8 +131,10 @@ class Results:
     def print_results_txt(self, results, output='console', nome_file='output.txt', limit=100):
         '''
 
-        :param results:
-        :param output:
+        Funzione che si occupa del printing dei risultati
+
+        :param results: lista di risultati da stampare
+        :param output:  di base "console" se terminale o possiamo specificare il nome del file 'txt' dove salvarlo
         :return:
         '''
 
