@@ -1,4 +1,8 @@
 class recensione:
+    '''
+    classe creata per gestire le recensioni,
+    successivamente abbandonata siccome era molto piu comodo lavorare con liste e dizionari ben definiti
+    '''
     def __init__(self, *args):
         self.pk = args[0]
         self.reviewerName = args[1]

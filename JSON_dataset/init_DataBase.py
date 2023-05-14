@@ -5,12 +5,12 @@ from tqdm import tqdm
 
 from recensione import *
 import re
-import Sentiment_analyzer as sa
+import Sentiment_analyzer as Sa
 
 
 def start(file_path, lista):
     """
-    Carica
+    Carica il file JSON su python riga per riga, e viene aggiunta in una lista temporanea
     :param file_path:  path del file json da leggere
     :param lista:  lista vuota che verra riempita con gli oggetti letti dal file json
     :return: none, riempe la lista per reference
@@ -24,6 +24,12 @@ def start(file_path, lista):
 
 
 def asin_to_title(asin, lista):
+    '''
+    Dato un ASIN (codice univoco dei prodotti amazon ) ritorna il nome del prodotto
+    :param asin: asin da convertire
+    :param lista: lista dei dati dei prodotti
+    :return:
+    '''
     for elemento in lista:
 
         if elemento["asin"] == asin:
@@ -31,7 +37,9 @@ def asin_to_title(asin, lista):
 
 
 class counter:
-
+    '''
+     counter globale
+    '''
     def __init__(self, valore):
         self.value = valore
 
@@ -43,7 +51,16 @@ class counter:
 
 
 def init_datasetcsv(nome_categoria, lista_iterare, meta_lista_iterare, cont):
-    Analizzatore = sa.Sentiment_analyzers()
+    '''
+    data una lista di recensioni , una lista di prodotti e un contatore
+    si occupa di mettere tutto insieme filtrando i dati inutile creando un CSV ready to use
+    :param nome_categoria: nome della categoria di amazon
+    :param lista_iterare:  lista delle recensioni
+    :param meta_lista_iterare: lista con i dettagli dei prodotti   (asin e title)
+    :param cont:  contatore globale, per mantenere
+    :return:
+    '''
+    Analizzatore = Sa.Sentiment_analyzers()
 
     for obj in tqdm(lista_iterare):
         try:
