@@ -43,7 +43,7 @@ from Search_and_Result.Searcher import Index_Searcher
 from Search_and_Result.Results import Results
 
 
-Index_benchmark = Index_Searcher(index="../Benchmark/benchmark_index")
+Index_benchmark = Index_Searcher(index="../Benchmark/benchmark_index" , algoritmo_di_ricerca="BM25F")
 
 lunghezza_querries = []
 dcg_values=[]
@@ -92,7 +92,7 @@ def plot_graph(data, measure, file_name):
 
     # inserisco leggenda e labels
     ax.set_ylabel('Values')
-    ax.set_title(measure + " TF-IDF+ Vader Positivo")
+    ax.set_title(measure + " BM25F + Vader Positivo")
     ax.set_xticks(x,queries)
     ax.legend()
 
@@ -101,5 +101,5 @@ def plot_graph(data, measure, file_name):
     plt.savefig(file_name)
     plt.show()
 
-plot_graph(dcg_values,"DCG","DCG_measures.png")
-plot_graph(dcg_values,"NDCG","NDCG_measures.png")
+plot_graph(dcg_values,"DCG","DCG_measures_BM25F.png")
+plot_graph(dcg_values,"NDCG","NDCG_measures_BM25F.png")
