@@ -103,7 +103,6 @@ class Results:
         if self.sentiment_tool == "distilroberta":
             sent_ord = sorted(self.results, key=lambda d: d['distilroberta_sentimento_valore'], reverse=True)
 
-        # ???? Usiamo valore compound o i valori singoli? ?????
         elif self.sentiment_tool == "Vader":
             if self.sentiment == "positivo":
                 sent_ord = sorted(self.results, key=lambda d: d['vader_valore_positivo'], reverse=True)
@@ -112,10 +111,10 @@ class Results:
             else:  # Sentimento negativo
                 sent_ord = sorted(self.results, key=lambda d: d['vader_valore_negativo'], reverse=True)
 
-        elif self.sentiment_tool == "TextBlob":  # usato textblob
+        elif self.sentiment_tool == "TextBlob":
             if self.sentiment == "positivo":
                 sent_ord = sorted(self.results, key=lambda d: d['textblob_valore_polarita'], reverse=True)
-            else:  # Se negativo
+            else:
                 sent_ord = sorted(self.results, key=lambda d: d['textblob_valore_polarita'])
 
         for cont, hit in enumerate(sent_ord):
