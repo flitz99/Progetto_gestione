@@ -71,8 +71,4 @@ class Index_Searcher:
             for x, y in enumerate(results):
                 print(x + 1)
                 print(y)
-    def check_results(self,results):
-        if len(results) > 0:
-            return True
-        return False
 
