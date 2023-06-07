@@ -88,17 +88,17 @@ then we proceed to manually score each review with each query for a score betwee
 
 we used the 
 
-
+1
 $$ DCG_{p} = rel_{1}+\sum_{i=2}^{p}{rel_{i} \over log_{2}i} $$
-
+2
 $$ x = rel_{1}+\sum_{i=2}^{p}{rel_{i} \over log_{2}i} $$
-
+3
 $$ DCG_{p} = rel_{1}+\sum_{x  \over log_{2}i} $$
-
+4
 $$ DCG_{p} = rel_{1}+\sum_{x  \over x} $$
-
+5
 $$ DCG_{p} = x+\sum_{i=2}^{p}{rel_{i} \over log_{2}i} $$
-
+6
 $$ x = {-b \pm \sqrt{b^2-4ac} \over 2a} $$
 
 
