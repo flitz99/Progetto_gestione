@@ -88,7 +88,13 @@ then we proceed to manually score each review with each query for a score betwee
 
 we used the 
 
-** DCG Forumla **
+` DCG Formula `
 
 $$ DCG_{p} = rel_{1}+\sum_{i=2}^{p}{rel_{i} \over log_{2}i} $$
 
+and plotted the following graphs 
+
+![DCG using Tf_IDF](https://github.com/flitz99/Progetto_gestione/blob/main/Benchmark/DCG_measures.png)
+
+
+![DCG using BM25](https://github.com/flitz99/Progetto_gestione/blob/main/Benchmark/DCG_measures_BM25F.png)
