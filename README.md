@@ -101,8 +101,9 @@ and plotted the following graphs
 
 then we proceeded to calculate NDCG 
 
-$$ NDCG_{p} = { DCG_{p} \over Ideal-DCG_{p} } $$
+$$ NDCG_{p} = { DCG_{p} \over IDCG_{p} } $$
 
+IDCG= ideal DCG
 
 ![NDCG using Tf_IDF](https://github.com/flitz99/Progetto_gestione/blob/main/Benchmark/NDCG_measures.png)
 
