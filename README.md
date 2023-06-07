@@ -67,3 +67,21 @@ the following output is an example by searching
 **_Ranking sentimento_** =  the ranking based on the sentiment analyzer and sentiment chosen  <br >
 **_Sentiment analyzer_** =  the sentiment analyzer used for the analyzes  <br >
 
+## Benchmark
+
+for the benchmark we have chosen 100 reviews randomly using `Benchmark/Benchmark_create.py` and choose 10 queries to mimic what an user would have asked
+
+the 10 query are inside the `Benchmark/Benchmark.py`
+
+    "r1": "love AND stories",
+    "r2": "DVD OR VHS",
+    "r3": "bad AND packing",
+    "r4": "worth buying",
+    "r5": "background music",
+    "r6": "amazing visual effects",
+    "r7": "cast",
+    "r8": "faithful to the book",
+    "r9": "Oscar OR awards ",
+    "r10": "highest rated",
+
+t

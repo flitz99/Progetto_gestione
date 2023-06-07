@@ -1,3 +1,5 @@
+import os
+
 import matplotlib.pyplot as plt
 import numpy as np
 
@@ -41,6 +43,12 @@ def calcola_dcg(lista_ordinata,dict_key):
 
 from Search_and_Result.Searcher import Index_Searcher
 from Search_and_Result.Results import Results
+
+
+if not os.path.exists('../Benchmark/benchmark_index'):
+    print("Index non esistente,  attendere la sua creazione... \n")
+    import Benchmark_create
+    Benchmark_create.create_index_from_csv()
 
 
 Index_benchmark = Index_Searcher(index="../Benchmark/benchmark_index" , algoritmo_di_ricerca="BM25F")
