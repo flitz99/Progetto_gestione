@@ -125,5 +125,8 @@ def create_index_from_csv():
 
     index_writer.commit()
 
-
+'''
+non neccesario crearlo siccome `e stato già creato a mano e assegnato manualmente un ranking per 
+calcolare il DCG
+'''
 # create_index_from_csv()
