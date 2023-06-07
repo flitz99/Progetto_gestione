@@ -98,3 +98,12 @@ and plotted the following graphs
 
 
 ![DCG using BM25](https://github.com/flitz99/Progetto_gestione/blob/main/Benchmark/DCG_measures_BM25F.png)
+
+then we proceeded to calculate NDCG 
+
+$$ NDCG_{p} = { DCG_{p} \over Ideal_DCG_{p} } $$
+
+
+![NDCG using Tf_IDF](https://github.com/flitz99/Progetto_gestione/blob/main/Benchmark/NDCG_measures.png)
+
+![NDCG using BM25](https://github.com/flitz99/Progetto_gestione/blob/main/Benchmark/NDCG_measures_BM25F.png)
