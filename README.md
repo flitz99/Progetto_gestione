@@ -84,4 +84,12 @@ the 10 query are inside the `Benchmark/Benchmark.py`
     "r9": "Oscar OR awards ",
     "r10": "highest rated",
 
-t
+then we proceed to manually score each review with each query for a score between `[0,3]`
+
+we used the 
+$$ DCG_{p} = rel_{1}+\sum_{i=2}^{p}{rel_{i} \over log_{2}i}$$
+
+
+$$ x = {-b \pm \sqrt{b^2-4ac} \over 2a} $$
+
+

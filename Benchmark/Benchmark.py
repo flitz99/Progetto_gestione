@@ -44,7 +44,9 @@ def calcola_dcg(lista_ordinata,dict_key):
 from Search_and_Result.Searcher import Index_Searcher
 from Search_and_Result.Results import Results
 
-
+'''
+creazione index benchmark se non esiste
+'''
 if not os.path.exists('../Benchmark/benchmark_index'):
     print("Index non esistente,  attendere la sua creazione... \n")
     import Benchmark_create
