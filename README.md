@@ -67,6 +67,10 @@ the following output is an example by searching
 **_Ranking sentimento_** =  the ranking based on the sentiment analyzer and sentiment chosen  <br >
 **_Sentiment analyzer_** =  the sentiment analyzer used for the analyzes  <br >
 
+
+`output.txt` is an example of output of `Start.py`
+`benchmark.txt` is an example of output of `Benchmark.py`
+
 ## Benchmark
 
 for the benchmark we have chosen 100 reviews randomly using `Benchmark/Benchmark_create.py` and choose 10 queries to mimic what an user would have asked
