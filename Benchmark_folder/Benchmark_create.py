@@ -55,7 +55,7 @@ def create_index_from_csv():
 
     '''
     print("index non esiste attendere la sua creazione")
-    db = datab.Database('../Benchmark/benchmark_DCG.csv')
+    db = datab.Database('../Progetto_gestione/Benchmark_folder/benchmark_DCG.csv')
     db.init_DB()
 
     # for l in db.lista_recensioni:

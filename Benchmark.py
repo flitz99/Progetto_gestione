@@ -47,13 +47,13 @@ from Search_and_Result.Results import Results
 '''
 creazione index benchmark se non esiste
 '''
-if not os.path.exists('../Benchmark/benchmark_index'):
+if not os.path.exists('../Progetto_gestione/Benchmark_folder/benchmark_DCG.csv'):
     print("Index non esistente,  attendere la sua creazione... \n")
-    import Benchmark_create
-    Benchmark_create.create_index_from_csv()
+    from Benchmark_folder.Benchmark_create import create_index_from_csv as crea_index_usando_csv_commentato
+    crea_index_usando_csv_commentato()
 
 
-Index_benchmark = Index_Searcher(index="../Benchmark/benchmark_index" , algoritmo_di_ricerca="BM25F")
+Index_benchmark = Index_Searcher(index="../Progetto_gestione/benchmark_index" , algoritmo_di_ricerca="BM25F")
 
 lunghezza_querries = []
 dcg_values=[]
@@ -112,5 +112,5 @@ def plot_graph(data, measure, file_name):
     plt.savefig(file_name)
     plt.show()
 
-plot_graph(dcg_values,"DCG","DCG_measures_BM25F.png")
-plot_graph(dcg_values,"NDCG","NDCG_measures_BM25F.png")
+plot_graph(dcg_values,"DCG", "Benchmark_folder/DCG_measures_BM25F.png")
+plot_graph(dcg_values,"NDCG", "Benchmark_folder/NDCG_measures_BM25F.png")
