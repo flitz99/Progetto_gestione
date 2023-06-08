@@ -47,7 +47,7 @@ from Search_and_Result.Results import Results
 '''
 creazione index benchmark se non esiste
 '''
-if not os.path.exists('../Progetto_gestione/Benchmark_folder/benchmark_DCG.csv'):
+if not os.path.exists('../Progetto_gestione/benchmark_index'):
     print("Index non esistente,  attendere la sua creazione... \n")
     from Benchmark_folder.Benchmark_create import create_index_from_csv as crea_index_usando_csv_commentato
     crea_index_usando_csv_commentato()
