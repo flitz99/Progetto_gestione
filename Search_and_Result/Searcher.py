@@ -1,4 +1,6 @@
+import whoosh
 from whoosh import scoring
+
 from whoosh.index import open_dir
 from whoosh.lang.wordnet import Thesaurus
 from whoosh import qparser as qp
@@ -9,7 +11,7 @@ from whoosh.qparser import QueryParser
 
 class Index_Searcher:
 
-    def __init__(self, algoritmo_di_ricerca = None , index='../Search_and_Result/indexdir_2.0'):
+    def __init__(self, algoritmo_di_ricerca = None , index='../Progetto_gestione/indexdir_2.0'):
 
         # ----  Apertura indice whoosh   ----
         try:
@@ -19,7 +21,7 @@ class Index_Searcher:
             raise OSError("Directory non trovata")
 
         # ---- Apertura Thesaurus ----
-        with open("../prolog/wn_s.pl") as file:
+        with open("../Progetto_gestione/prolog/wn_s.pl") as file:
             self.thesaurus = Thesaurus.from_file(file)
 
         if algoritmo_di_ricerca == "BM25F":

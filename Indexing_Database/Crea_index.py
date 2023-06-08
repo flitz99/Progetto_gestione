@@ -8,11 +8,11 @@ class Start_indexing:
         self.crea_index_se_non_esiste()
 
     def crea_index_se_non_esiste(self):
-        is_index_dir = os.path.exists('../Search_and_Result/indexdir_2.0')
+        is_index_dir = os.path.exists('../Progetto_gestione/indexdir_2.0')
 
         if not is_index_dir:
             print("Index non esistente,  attendere la sua creazione... \n")
-            db = DATAB.Database('../JSON_dataset/dataset_sentiment.csv')
+            db = DATAB.Database('./JSON_dataset/dataset_sentiment.csv')
             db.init_DB()
 
             index = INDX.Indexer(db)

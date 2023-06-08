@@ -1,5 +1,5 @@
-from Searcher import *
-from Results import *
+from Search_and_Result.Searcher import *
+from Search_and_Result.Results import *
 from Indexing_Database.Crea_index import *
 
 '''
@@ -12,7 +12,7 @@ query = input("Inserire query: ")
 print("Vuoi usare BM25F o TF_IDF? (In caso di scelta omessa o errata si utilizza TF_IDF come standard)")
 scoring_method = input("Inserire meccanismo di scoring: ")
 
-search = Index_Searcher(algoritmo_di_ricerca=scoring_method)
+search = Index_Searcher(algoritmo_di_ricerca=scoring_method )
 relevant_results = search.submit_query(query, results_threshold=100, ricerca_precisa=False)  # Ricerca query nell'index
 
 #Se ho risultati
@@ -40,6 +40,4 @@ if relevant_results:
 
     results.print_results_txt(sent_ord_results,'console',limit=10)
     results.print_results_txt(sent_ord_results,'txt')
-
-
 

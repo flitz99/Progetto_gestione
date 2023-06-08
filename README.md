@@ -26,10 +26,10 @@ This is a project made for the course of Gestione di informazione of university 
 
 - Install dependencies from the `Pipfile`
 
-- run `Search_and_Result/Start.py` ( it will take 10 minutes )
+- run `Start.py` ( it will take 10 minutes )
 
 - when everything its ready it will ask you to insert a queries ,
-don't need to initialize but just run `Search_and_Result/Start.py` to make queries \
+don't need to initialize but just run `Start.py` to make queries \
 
 
 ## How to querries ?

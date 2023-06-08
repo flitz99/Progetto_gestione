@@ -69,6 +69,7 @@ for dict_key , dict_values in queries.items():
             continue
     lunghezza_querries.append(len(relevant_results))
     order_results = results.generate_results_benchmark() #acquisisce risultati ordinati
+    results.print_results_txt(order_results, output='console')
     valore_dcg = calcola_dcg(order_results, dict_key)  # Calcolo cdg per risultati query
 
     ordinamento_ottimale = sorted(order_results, key=lambda d:d[dict_key] , reverse=True)

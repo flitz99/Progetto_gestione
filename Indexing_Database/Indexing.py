@@ -9,7 +9,7 @@ class Indexer:
     classe usata per scegliere il formato del index predefinito
     '''
 
-    def __init__(self, database, nome_dir= "indexdir_2.0"):
+    def __init__(self, database, nome_dir= "../Progetto_gestione/indexdir_2.0"):
         self.database = database  # classe database
         self.schema = Schema(
             pk=ID(stored=True, analyzer=StemmingAnalyzer()),
