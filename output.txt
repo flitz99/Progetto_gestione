@@ -1,0 +1,901 @@
+---------------------------------------------------- RISULTATI ----------------------------------------------------
+Ranking_finale:  1
+Categoria: Movies and TV, Nome del prodotto : SLC Punk 
+Autore recensione: Michael Bregman
+Testo recensione: SLC Punk is a great example of what happens when the ideals of youth wear thin, and when one is forced to make a choice that entails giving up a lifestyle, that while is a definite road to nowhere, is very near and dear to the heart, and chooseing a secure future, but said future is the very embodiment of all that you held dear stood against. Especially when you know that the secure future is the right chioce.
+Ranking pertinenza: 1  
+Ranking sentimento: 38  
+Sentiment analyzer: Vader 
+valore_sentimento = 0.205
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ranking_finale:  2
+Categoria: Cd e Vynil, Nome del prodotto : Pink Floyd - Pulse VHS 
+Autore recensione: A. Van Der Schors
+Testo recensione: Absolute a fantastic recording of a great concert of the best band ever. Great sound en fantastic stage effects. You won't be bored for a second watching this recording. An absolute "must have" for any serious Pink Floyd fan.
+Ranking pertinenza: 21  
+Ranking sentimento: 2  
+Sentiment analyzer: Vader 
+valore_sentimento = 0.423
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ranking_finale:  3
+Categoria: Movies and TV, Nome del prodotto : Steve Green: Hide 'em in Your Heart Volume 2: 13 Bible Memory Music Videos for Children VHS 
+Autore recensione: Lori J Bouwman
+Testo recensione: Loved volume 1, and now there's another volume to learn songs to scripture and life lessons.  This is a great way to get scripture in our hearts!
+Ranking pertinenza: 9  
+Ranking sentimento: 5  
+Sentiment analyzer: Vader 
+valore_sentimento = 0.344
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ranking_finale:  4
+Categoria: Movies and TV, Nome del prodotto : Jesus The Christ: The movie version of The Visual Bible's Matthew 
+Autore recensione: deckocards
+Testo recensione: I thorougly enjoyed the Book of Matthew not only because it followed the NIV transalation word for word but the portrayal of Jesus was superb!  I've never seen a more human example of Jesus Christ.  He was playful, full of joy, and compassionate.  This is a MUST SEE!  The Falling Fire movie was also good but more of a dramatic portrayal than a word for word account.
+Ranking pertinenza: 3  
+Ranking sentimento: 15  
+Sentiment analyzer: Vader 
+valore_sentimento = 0.286
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ranking_finale:  5
+Categoria: Cd e Vynil, Nome del prodotto : Apocalyptic Love: UK Fan Pack Edition 
+Autore recensione: Daniel Barrera
+Testo recensione: If you want pure rock n roll with the most amazing guitar you must have it, if you are waiting the eternal guns n roses sound just undust your old cd's.... this record its awesome, full of energy and excellent music, all the instruments sounds amazing and the vocals so great !!!!!! i love this record !!!!!!
+Ranking pertinenza: 19  
+Ranking sentimento: 4  
+Sentiment analyzer: Vader 
+valore_sentimento = 0.377
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ranking_finale:  6
+Categoria: Cd e Vynil, Nome del prodotto : Comatose 
+Autore recensione: MadMom
+Testo recensione: I LOVE rock music and this album is pretty good. I got an MP3 download as well as the album for only $5! First off there are a couple of tracks that are really good. Comatose and Whispers in the Dark are so good. Sounds so good in my rockin' sound system! Since I bought this I would love to see them live and they are coming to a town near you this summer!
+Ranking pertinenza: 7  
+Ranking sentimento: 11  
+Sentiment analyzer: Vader 
+valore_sentimento = 0.3
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ranking_finale:  7
+Categoria: Cd e Vynil, Nome del prodotto : Glory to the Holy One: Sacred Music for the People of God 
+Autore recensione: feo.socal
+Testo recensione: Beautiful and God honoring. LOVE R.C. Sproul, dear brother. He is biblically sound and such a testimony to the Lord. Thank you for lifting Him high in worship with this incredible CD, Glory to the Holy One!
+Ranking pertinenza: 91  
+Ranking sentimento: 1  
+Sentiment analyzer: Vader 
+valore_sentimento = 0.469
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ranking_finale:  8
+Categoria: Movies and TV, Nome del prodotto : A River Runs Through It 
+Autore recensione: Curtis Hickman
+Testo recensione: Way back in English Lit, University of Oregon, 25 years ago, I remember one idea that that once something achieves perfection in anything, it self distructs, always.  A near perfect chair exists, a near perfect painting, a near perfect poem, a near pefect fly fisherman. But none of these exist in a perfect form.  There is only one perfection and to attempt to mimimic it assures distruction. This movie portrays that notion, just fine.
+Ranking pertinenza: 6  
+Ranking sentimento: 19  
+Sentiment analyzer: Vader 
+valore_sentimento = 0.272
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ranking_finale:  9
+Categoria: Cd e Vynil, Nome del prodotto : Learning Basic Skills Through Music - Vol 2 CD 
+Autore recensione: Kathy Thompson
+Testo recensione: A Great addition to the skills taught in the Basic Skills Vol. I.  A wonderful way to practice new skills learned.
+Ranking pertinenza: 10  
+Ranking sentimento: 12  
+Sentiment analyzer: Vader 
+valore_sentimento = 0.291
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ranking_finale:  10
+Categoria: Cd e Vynil, Nome del prodotto : Sheryl Crow: Rockin' the Globe Live VHS 
+Autore recensione: Mark D. Conley
+Testo recensione: If your goal is DTS Music on a medium to high end system,  you'll be disappointed with this recording.  To me, a decent 5.1 mix is a deep full sound with a sound stage that puts you on site.  This DTS recording is  tinny and flat.  I really like Sheryl Crow, but this recording mix is best  left for low end stereo.  After listening to two tracks, I turned it off  and moved on to something more exciting.  5.1 recordings are just starting  to take off, this isn't the model to follow.
+Ranking pertinenza: 2  
+Ranking sentimento: 79  
+Sentiment analyzer: Vader 
+valore_sentimento = 0.119
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ranking_finale:  11
+Categoria: Movies and TV, Nome del prodotto : Steve Green: Hide 'em in Your Heart Volume 2: 13 Bible Memory Music Videos for Children VHS 
+Autore recensione: KONeal
+Testo recensione: WE have "Hide 'Em In your Heart" the first volume, and I cant say anything but great things about it. All my children love them ranging in age from 12 months to 11. They sing verses directly out of the bible. I find myself singing the verses throughout the day. It is a great tool to put a song in your heart that is in fact God's word. Also a great tool for scripture memorization.
+Ranking pertinenza: 24  
+Ranking sentimento: 10  
+Sentiment analyzer: Vader 
+valore_sentimento = 0.31
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ranking_finale:  12
+Categoria: Cd e Vynil, Nome del prodotto : Changing Faces 
+Autore recensione: A. R SCOTT
+Testo recensione: THESE WOMEN ARE GOOD THIS ENTIRE CD IS GOOD THEY DID A PRETTY GOOD JOB FOR A DEBUT ALBUM FROM WHAT I KNOW THEY ARE BEST FRIENDS I AM STILL ENJOYING THIS ALBUM THIS IS A GOOD ALBUM AND THEY ARE MANY GOOD SONGS ON THIS ALBUM MY FAVORITES ARE : KEEP IT RIGHT THERE, FOOLIN AROUND, AND OF COURSE STROKE YOU UP BY R. KELLY !!!!!!!!
+Ranking pertinenza: 92  
+Ranking sentimento: 3  
+Sentiment analyzer: Vader 
+valore_sentimento = 0.411
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ranking_finale:  13
+Categoria: Cd e Vynil, Nome del prodotto : Roy Orbison Black &amp; White Night VHS 
+Autore recensione: RW
+Testo recensione: I don't think live recordings are all that good or sound all that live, that is until I got this SACD Black & White Night. Wow, talk about being in the room. You feel like you are there and what a great sound stage as well. This Roy at his best and has a host of friends that came just to play with him. Awesome.
+Ranking pertinenza: 47  
+Ranking sentimento: 6  
+Sentiment analyzer: Vader 
+valore_sentimento = 0.343
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ranking_finale:  14
+Categoria: Cd e Vynil, Nome del prodotto : Mannheim Steamroller - Christmas Live 
+Autore recensione: V. M. Morales
+Testo recensione: The first dvd was corrupted.  The sound was distored, as well as not even.  It would get loud, then drop in volume, then get loud again and did not sound right at all.  The replacement dvd was very good.  Sound was even and consistent.  However, I do not understand that why the second dvd is different from the first.  The begining of the the first is different from the second.  Either way, the second dvd is good and I will enjoy watching it durning the holidays.  Victor Morales
+Ranking pertinenza: 5  
+Ranking sentimento: 63  
+Sentiment analyzer: Vader 
+valore_sentimento = 0.143
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ranking_finale:  15
+Categoria: Movies and TV, Nome del prodotto : Joseph VHS 
+Autore recensione: Grant N. Townsend
+Testo recensione: I used this movie in my prison ministry bible study. It was very well done and followed the bible very closely. Joseph as revealed in the book of Genesis of the scripture is a type of Jesus and the movie brought this out which shows an obvious insight and knowledge do God's word. I would highly recommend this DVD for all family viewing.
+Ranking pertinenza: 4  
+Ranking sentimento: 92  
+Sentiment analyzer: Vader 
+valore_sentimento = 0.076
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ranking_finale:  16
+Categoria: Cd e Vynil, Nome del prodotto : Sarah Brightman - One Night in Eden 
+Autore recensione: Stanley W. Davis Jr
+Testo recensione: Overall the DVD was great, very good video.  The sound does not appear to be true Dolby Digital, however the sound was good enough.  NO SUBTITLE option which makes it nice if you are not familiar with the words.  Sarah  was great, the songs were very good.  I would buy it again.
+Ranking pertinenza: 54  
+Ranking sentimento: 7  
+Sentiment analyzer: Vader 
+valore_sentimento = 0.33
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ranking_finale:  17
+Categoria: Movies and TV, Nome del prodotto : Jane Eyre 
+Autore recensione: The Color Nine
+Testo recensione: I disagree with the viewer from Cambrige Ontario. I found this version lovely! Samantha Morton was excellent (I need to see "Emma" now), reserved, thoughtful, just as Jane was in the book. Jane had high emotions  but did not strike out often...the childhood was a small part of the book,  and though important, it is not the major part of the story. The  relationship with Bessie and Helen and Mrs Reed are important as well. I  found this version to be just fine, and I am going to buy it!
+Ranking pertinenza: 8  
+Ranking sentimento: 51  
+Sentiment analyzer: Vader 
+valore_sentimento = 0.171
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ranking_finale:  18
+Categoria: Movies and TV, Nome del prodotto : Close Encounters of the Third Kind VHS 
+Autore recensione: Jonathan
+Testo recensione: I just saw this a couple days ago for the first time.  I had no real clue about the movie, just that it was something about aliens.  I have to admit, I really fell in love with it.  It's nowhere near as dazzling as the special effects produced today, but it is still quite good.  The visuals are still amazing, despite how old the technology for it is.  If you like sci-fi stuff, and haven't seen this, do so.  Maybe it's not as good as star wars, but it's still good.
+Ranking pertinenza: 11  
+Ranking sentimento: 40  
+Sentiment analyzer: Vader 
+valore_sentimento = 0.199
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ranking_finale:  19
+Categoria: Cd e Vynil, Nome del prodotto : Ram 
+Autore recensione: GUILLE
+Testo recensione: After "Mac cartney", Paul wanted to prove he wasn't only an ex-beatle. John lennon was very severe with him in his song "How do you sleep". So, it is the answer. A huge success, with several great  songs, like "Uncle Albert Admiral Alsey" (whixh reached the first  place at the charts) or "Dear boy" which sound like "Martha  My dear", he wrote three years before fot the white album from The  Beatles. Maybe his best recording with "Band on the run".
+Ranking pertinenza: 27  
+Ranking sentimento: 17  
+Sentiment analyzer: Vader 
+valore_sentimento = 0.279
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ranking_finale:  20
+Categoria: Cd e Vynil, Nome del prodotto : The Happiest Baby on the Block 
+Autore recensione: Amazon Customer
+Testo recensione: What a great DVD! It is a must have for any new parent. It was so beneficial to have a visual guide for the 5 calming techniques.  It has really made our lives easier and reduced the stress of having a newborn. Our baby sleeps more soundly and is very happy and content. As a bonus, there are also calming sounds on the DVD which soothe the baby. You will not be disappointed!!!
+Ranking pertinenza: 53  
+Ranking sentimento: 9  
+Sentiment analyzer: Vader 
+valore_sentimento = 0.311
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ranking_finale:  21
+Categoria: Cd e Vynil, Nome del prodotto : Table Time for Tots Children VHS 
+Autore recensione: Keith Lucas
+Testo recensione: There is a great idea here. A good solid story. But... this is a great example of poor execution. The Children is, for lack of a better word, boring. Nothing happens. You could come 30 minutes late to this movie and not miss a thing. I think with a better cast and much better director and a good screenwriter to punch up the action and scares, this could be a really good movie. But right now, it just makes me sterile.
+Ranking pertinenza: 44  
+Ranking sentimento: 13  
+Sentiment analyzer: Vader 
+valore_sentimento = 0.29
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ranking_finale:  22
+Categoria: Cd e Vynil, Nome del prodotto : Neil Young - Silver &amp; Gold 
+Autore recensione: Chris broadstock
+Testo recensione: This video is probably his best since the Live Rust video back in 79`.The  playing is beautiful and honest. I think Neil is at his best when he plays  acoustic music,I also dig his  eletric stuff. Long may you run sounds really  good on pump organ maybe even better than the original on the Long may you  run lp. It is also good hearing the tracks from Silver& gold just done  solo. I recomend this video to any Neil Young fan
+Ranking pertinenza: 77  
+Ranking sentimento: 8  
+Sentiment analyzer: Vader 
+valore_sentimento = 0.32
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ranking_finale:  23
+Categoria: Movies and TV, Nome del prodotto : A River Runs Through It 
+Autore recensione: DaveO
+Testo recensione: Great book! Great movie! usually the movie pales in comparison to the book but that wasn't the case with A River Runs Through It. Both were great! I think the story lends itself to being told via a book but the movie adaptation certainly does a great jobsticking to the story. Movie: 4/5 Book: 5/5. READ THE BOOK then watch the movie.
+Ranking pertinenza: 31  
+Ranking sentimento: 20  
+Sentiment analyzer: Vader 
+valore_sentimento = 0.263
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ranking_finale:  24
+Categoria: Movies and TV, Nome del prodotto : Joseph VHS 
+Autore recensione: lvsknybbs
+Testo recensione: I actually love this movie and think it is well acted.  However, like another reviewer, I thought there were a couple of scenes about Potiphar's wife's attempts at seduction that were completely gratuitous and stretch what scripture says, hence only 4 stars.  The Bible isn't broken, don't try to fix it.  Every other part is quite wonderful.  I just fast-forward through the unnecessary parts.  Joseph is my favorite character in the Bible, after Jesus of course.
+Ranking pertinenza: 18  
+Ranking sentimento: 35  
+Sentiment analyzer: Vader 
+valore_sentimento = 0.208
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ranking_finale:  25
+Categoria: Movies and TV, Nome del prodotto : Twelve Women of the Bible Video Study: Life-Changing Stories for Women Today 
+Autore recensione: Lori Merkley
+Testo recensione: I lead a junior/high school Bible study and we have really enjoyed the CD and book.  It takes a different approach to the women in the Bible than I have seen before, but is accurate in doctrine.  It have many very respected women for you to learn from in the video as well.
+Ranking pertinenza: 12  
+Ranking sentimento: 55  
+Sentiment analyzer: Vader 
+valore_sentimento = 0.16
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ranking_finale:  26
+Categoria: Cd e Vynil, Nome del prodotto : This Land Is Your Land 
+Autore recensione: amazon frequent buyer
+Testo recensione: this is such a wonderful book ! I work with children and like them to know this song ! I love the fact that people are putting out books to good music...I also like "take me for a ride in your car car"{a book where the children can move tabs} ..."what a wonderful world" and bob Marley's children are writing books --- they may not have the exact same words but the chorus is usually accurate...
+Ranking pertinenza: 13  
+Ranking sentimento: 56  
+Sentiment analyzer: Vader 
+valore_sentimento = 0.16
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ranking_finale:  27
+Categoria: Cd e Vynil, Nome del prodotto : Cross Purposes - Live 
+Autore recensione: Bjorn Viberg
+Testo recensione: Cross Purposes is a straight forward heavy metal album with the typical lyrics, vocals and sound. You would think that this would be boring but it is not since good heavy metal is just as good as any other rock music and they are very accomplished vocalists, descent lyricists and great muisicians. The book-let is well done and the font used is easy on the eye which is nice. This is an album not to be missed by BS fans or fans of great music for that manner.
+Ranking pertinenza: 58  
+Ranking sentimento: 14  
+Sentiment analyzer: Vader 
+valore_sentimento = 0.29
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ranking_finale:  28
+Categoria: Movies and TV, Nome del prodotto : A River Runs Through It 
+Autore recensione: NadieMax
+Testo recensione: I think this is the first time that I've watched a movie that was better than the book on which it was based.  The Montana landscape is indescribably beautiful. No words can do it justice.  It must be seen. Also, there was quite a lot in the book about the intricate art and skill of fly fishing. The movie emphasized relationships and family dynamics which I found more interesting. The movie was beautifully done. I will probably watch it again sometime just for the scenery.
+Ranking pertinenza: 23  
+Ranking sentimento: 37  
+Sentiment analyzer: Vader 
+valore_sentimento = 0.206
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ranking_finale:  29
+Categoria: Cd e Vynil, Nome del prodotto : Bee Gees - One Night Only VHS 
+Autore recensione: A. Cheng
+Testo recensione: I have both DD and DTS. I found both are poor recorded.  Very disappointed.  I have  CD of Bee Gees from 60 up.  The Polydor give very good recording even on the old days. The 1997 concert has very good song  and perfomance except recording.  This recording is NOT acceptable for a  good Hi-Fi equipment.
+Ranking pertinenza: 14  
+Ranking sentimento: 64  
+Sentiment analyzer: Vader 
+valore_sentimento = 0.139
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ranking_finale:  30
+Categoria: Cd e Vynil, Nome del prodotto : Hard Wired 
+Autore recensione: Amazon Customer
+Testo recensione: Another good-sounding record from the worlds best drummer. More funky and less jazzy are the words for this one. Track no. 5 has one of the best guitarsolos I've ever heard. If you are musician of any kind, listen n'  learn. This is how a good drumplayer should sound...
+Ranking pertinenza: 37  
+Ranking sentimento: 27  
+Sentiment analyzer: Vader 
+valore_sentimento = 0.243
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ranking_finale:  31
+Categoria: Movies and TV, Nome del prodotto : Joseph VHS 
+Autore recensione: Thomas Fleckenstein
+Testo recensione: Perhaps the most Biblically acurate presentation of scripture I've ever seen.  An outstanding cast, well directed and even a brilliantly composed musical score.  One of my absolute favorite stories in the Bible really came to life in this presentation.  I would recommend this film for families, Bible studies and Sabbath/Sunday school classes.
+Ranking pertinenza: 41  
+Ranking sentimento: 25  
+Sentiment analyzer: Vader 
+valore_sentimento = 0.249
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ranking_finale:  32
+Categoria: Cd e Vynil, Nome del prodotto : Tony Bennett - MTV Unplugged: The Video 
+Autore recensione: audiophilesdream
+Testo recensione: This recording has many redeeming qualities. The music, the artist and even the recording quality get very high marks except for one thing. The frequent applause is 20-30 decibels too loud and interrupts what would be one of my favorite recordings far to often. The hot crispy frying egg applause every two minutes really gets me reaching for the volume control. The cd is worth having, but it could have been great! It is a shame the recording engineers don't pay more attention to such things..
+Ranking pertinenza: 20  
+Ranking sentimento: 53  
+Sentiment analyzer: Vader 
+valore_sentimento = 0.163
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ranking_finale:  33
+Categoria: Cd e Vynil, Nome del prodotto : Fleetwood Mac - The Dance 
+Autore recensione: Chris McNeal
+Testo recensione: Great great DVD of a great Fleetwood Mac concert.  Some reviews said the sound wasn't that good on this, I had it loud on my Yamaha MX system with less that .003 THD, and used the 5.1 (You have a choice between 2 different recording types) and it sounded clear and crisp and it was a joy to watch.  If your a Mac fan or just like good rock and roll, this is a must have DVD.
+Ranking pertinenza: 59  
+Ranking sentimento: 18  
+Sentiment analyzer: Vader 
+valore_sentimento = 0.273
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ranking_finale:  34
+Categoria: Cd e Vynil, Nome del prodotto : Contraband Ed 
+Autore recensione: Ismael Casasol
+Testo recensione: This is a Great cd I love it, and I am tired of people saying that it doesn't sound like GNR or STP, well it doesn't have to sound like these bands because it is a DIFFERENT BAND!, it has a great sound and lyricaly is even better. Buy this cd, turn up the volume on the speakers, and rock away.
+Ranking pertinenza: 50  
+Ranking sentimento: 22  
+Sentiment analyzer: Vader 
+valore_sentimento = 0.258
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ranking_finale:  35
+Categoria: Cd e Vynil, Nome del prodotto : Ram 
+Autore recensione: J Allen
+Testo recensione: Dear Boy: This is in fact a treat for anyone that enjoys the art of mixing. Clean and neat in it's simplicity and just a joy to listen to. Uncle Albert is Abby Road and the White album together. While MY Dog is foot tapping fun that you will sing over and over in your head while Dear Boy Is a symphony of voices that with send rushes to your very soul. A slow Sunday morning deserves to be laced with these sounds.
+Ranking pertinenza: 38  
+Ranking sentimento: 29  
+Sentiment analyzer: Vader 
+valore_sentimento = 0.242
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ranking_finale:  36
+Categoria: Movies and TV, Nome del prodotto : Resident Evil: Apocalypse 
+Autore recensione: The One
+Testo recensione: I went to the theater expecting as usual a bad movie for a good game will it was nothing as i expected, It was just Splashing active bloody movie, I was thrilled from the story the visual effects & sound effects, I mean you are on your feet tell the end of the movie it's a different story to the usual resident evil problem...!!!  I won't say anything about the movie but it's a good one, so if you like action, science fiction, and real horror just see it.!
+Ranking pertinenza: 15  
+Ranking sentimento: 75  
+Sentiment analyzer: Vader 
+valore_sentimento = 0.124
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ranking_finale:  37
+Categoria: Movies and TV, Nome del prodotto : The Prince of Tides VHS 
+Autore recensione: Gloria
+Testo recensione: I just finished the book and then watched the movie. The book is fantastic and so was the movie in its own way. Pat Conroy helped write the script and I am sure approved the changes. Captures a lot of the feeling of the book.
+Ranking pertinenza: 28  
+Ranking sentimento: 41  
+Sentiment analyzer: Vader 
+valore_sentimento = 0.199
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ranking_finale:  38
+Categoria: Cd e Vynil, Nome del prodotto : Crystal Clear 
+Autore recensione: Larry Gill
+Testo recensione: Though Jaci is much younger than I, I found this to be a truly well done and well produced lp by a talented young lady who proves she is not subject to pop trends. I am a die hard prog fan and ccm collector as well. This lp is musically balanced and the players show top notch ability and skill in each track. Her voice is as pretty as her face and she can vary her style from soft to intense. Worshipful as well as upbeat.
+Ranking pertinenza: 55  
+Ranking sentimento: 21  
+Sentiment analyzer: Vader 
+valore_sentimento = 0.26
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ranking_finale:  39
+Categoria: Movies and TV, Nome del prodotto : Joseph VHS 
+Autore recensione: Ron Barnes
+Testo recensione: This is absolutely one of the best produced and acted Bible stories around. It's accuracy, acting and pacing set a new standard for Bible-based productions. Bible scholars will not be offended, and movie buffs will not be disappointed. It tightens my throat at the end every time. I strongly recommend this for your Bible movie collection.
+Ranking pertinenza: 33  
+Ranking sentimento: 39  
+Sentiment analyzer: Vader 
+valore_sentimento = 0.204
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ranking_finale:  40
+Categoria: Movies and TV, Nome del prodotto : Jane Eyre 
+Autore recensione: Sophie
+Testo recensione: Jane Eyre is my absolute fav book, but I thought this make of the book was WAY too melodramatic. I don't believe the portrayal of Mr. Rochester was all that great in this movie. He was really melodramatic. This movie also skips A LOT of scenes from the book that I really enjoyed. This movie just wasn't all that great. The book is always great though! I've read it countless times and never get tired of it.
+Ranking pertinenza: 42  
+Ranking sentimento: 31  
+Sentiment analyzer: Vader 
+valore_sentimento = 0.223
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ranking_finale:  41
+Categoria: Movies and TV, Nome del prodotto : Joseph VHS 
+Autore recensione: Earth Trekker
+Testo recensione: This is an accurate and realistic depiction of Scripture. It is nice to watch a Bible story that is not a cartoon and not an overacted, way too serious presentation. Bible heroes on film are often treated as if they walked on earth with a halo constantly hovering over them. This is a story about a man who follows God's heart through thick and thin (mostly thin), but you can relate to him because he is portrayed as an ordinary, albeit tremendously faithful, man.
+Ranking pertinenza: 17  
+Ranking sentimento: 78  
+Sentiment analyzer: Vader 
+valore_sentimento = 0.12
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ranking_finale:  42
+Categoria: Movies and TV, Nome del prodotto : Joseph VHS 
+Autore recensione: greeneyed cpa
+Testo recensione: I bought this for my Bible study group to watch after we finished our study on Joseph.  Very true to the Bible with some addition of possible details for dramatic effect.  Very well done with good acting. Not amateurish, corny or preachy
+Ranking pertinenza: 29  
+Ranking sentimento: 49  
+Sentiment analyzer: Vader 
+valore_sentimento = 0.177
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ranking_finale:  43
+Categoria: Cd e Vynil, Nome del prodotto : Yanni - Tribute VHS 
+Autore recensione: K. Hogue
+Testo recensione: Almost as full of life as the music is on this DVD, the included bonus of the documentary "No Borders" is fabulous.  If you love India, China or the making of a documentary this bonus is for you.  Full of great shots of the people, scenery and color of India, this charts the set up of the concert as well as introduces Yanni's homeland and parents.  A great narrative addition worth the price in it's own right.
+Ranking pertinenza: 93  
+Ranking sentimento: 16  
+Sentiment analyzer: Vader 
+valore_sentimento = 0.284
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ranking_finale:  44
+Categoria: Cd e Vynil, Nome del prodotto : Eric Clapton: 24 Nights 
+Autore recensione: pinkhighway
+Testo recensione: Not very well filmed or recorded. Some of the performances almost seem like rehearsals without much energy. It would have been  interesting to have some "behind the scenes" footage and interviews to give it a little more visual interest. Oddly, EC has never been the most compelling artist to watch. He's just a little too passive on stage, although I appreciate the fact that he's more reserved and dignified than other guitarists. But sometimes he just looks like he's about to fall asleep.
+Ranking pertinenza: 30  
+Ranking sentimento: 52  
+Sentiment analyzer: Vader 
+valore_sentimento = 0.171
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ranking_finale:  45
+Categoria: Movies and TV, Nome del prodotto : Into Thin Air:Death on Everest VHS 
+Autore recensione: Shoozie
+Testo recensione: The book is what lead me to this movie.  Having read the book - - which is EXCELLENT....is what helped me give this movie 4 stars.  Nothing can compare to the book written by Jon Krakauer.  His book led me to purchase many other books on the subject of climbing which eventually lead me to this movie.  Very good....but I would suggest you read "Into Thin Air", then watch the movie.
+Ranking pertinenza: 16  
+Ranking sentimento: 99  
+Sentiment analyzer: Vader 
+valore_sentimento = 0.0
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ranking_finale:  46
+Categoria: Cd e Vynil, Nome del prodotto : Retrospective Hybrid 
+Autore recensione: Aaron M Stodolka
+Testo recensione: I bought the HD Tracks 24bit 176 it was ok the older recorded tracks sound bad newer track like spilled wine sound good. cant imagine the SACD sounds any better and for the price get the HD tracks and use audio korieg to convert to dsd file to play on dsd compatible players. I use lessloss mkii battery powered 24/192 dac and Tascam da3000 pcm/dsd recorder to play hirez pcm.
+Ranking pertinenza: 36  
+Ranking sentimento: 46  
+Sentiment analyzer: Vader 
+valore_sentimento = 0.187
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ranking_finale:  47
+Categoria: Movies and TV, Nome del prodotto : Air Force One 
+Autore recensione: Robert Hedstrom
+Testo recensione: Another fannytastic drama with the very great actor, Harrison Ford. There is one flaw right up front; the terrorists who came on board with the President would have never passed security; in fact, what happens at the beginning would never happen in reality. All these unknown men about nine of em just get onboard Air Force One, and it is not clear why security failed to apprehend any of them. This is glossed over fast. I think it's another great H. Ford movie nonetheless.
+Ranking pertinenza: 22  
+Ranking sentimento: 89  
+Sentiment analyzer: Vader 
+valore_sentimento = 0.086
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ranking_finale:  48
+Categoria: Cd e Vynil, Nome del prodotto : AC/DC - No Bull Plaza De Toros De Las Ventas, Madrid  VHS 
+Autore recensione: Mario Medina
+Testo recensione: IN RESPONSE OF A REVIEW THAT I JUST READ ABOUT THIS DVD, THE DOLBY DIGITAL TRACK IS 5.0, NOT 5.1. THIS MAKES YOU PRACTICALLY "BASSLESS" IF YOU HAVE A HOME THEATER WITH 5 SPEAKERS AND A SUBWOOFER, THIS LAST ONE WILL NOT SOUND AT ALL. HOWEVER YOU CAN FIX THIS LITTLE PROBLEM BY LISTENING TO THE 2.0 (STEREO) SOUND AND USE YOUR DOLBY PRO LOGIC DECODER ON THE HOME THEATER RECEIVER OR AMP, YOU'LL HAVE BEST SURROUND SOUND THIS WAY AND YOUR SUBWOOFER WILL DO HIS JOB VERY WELL.
+Ranking pertinenza: 25  
+Ranking sentimento: 87  
+Sentiment analyzer: Vader 
+valore_sentimento = 0.089
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ranking_finale:  49
+Categoria: Cd e Vynil, Nome del prodotto : Roy Orbison Black &amp; White Night VHS 
+Autore recensione: megryan
+Testo recensione: Hi,  Just got this from Amazon today....amazed by this artist his quality voice and so on....This is one of the best concert on the bluray with good AV quality.  I don't have much words to say...but anyone who is music lover specially rock and roll on then this is the right choice baby.  Worth double the penny and truly excellent Roy Orbison. Though his eyes are taken by god but then he is blessed by good voice quality....  Regards, Ryan from India.
+Ranking pertinenza: 97  
+Ranking sentimento: 23  
+Sentiment analyzer: Vader 
+valore_sentimento = 0.256
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ranking_finale:  50
+Categoria: Cd e Vynil, Nome del prodotto : Goodbye Worries 
+Autore recensione: Georgeanne Hyatt
+Testo recensione: This safe my life & my cats calm right down as soon as they hear it. Roberta Shapiro helped me develop a safe place to do therapy. Very important part of my recovery from prolong complex ptsd.
+Ranking pertinenza: 75  
+Ranking sentimento: 30  
+Sentiment analyzer: Vader 
+valore_sentimento = 0.236
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ranking_finale:  51
+Categoria: Cd e Vynil, Nome del prodotto : Simply Dusty 
+Autore recensione: A. Grable
+Testo recensione: I ordered this & received the full size 11x11 book, not the 6x10 book like the description says.  Great book & CD selections!
+Ranking pertinenza: 88  
+Ranking sentimento: 26  
+Sentiment analyzer: Vader 
+valore_sentimento = 0.247
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ranking_finale:  52
+Categoria: Cd e Vynil, Nome del prodotto : Contraband Ed 
+Autore recensione: That Reviewer
+Testo recensione: This CD comes with copy protection software, which, when installed, wrecks havoc on your computer and instantly compromises your online security and safety.  Ugly, malicious forms of spyware are loaded, and your PC will soon be hijacked.  Is this any way to treat customers?  I love VR, but Sony/BMG must do away with copy protection and respect our RIGHT to make legitimate copies as we so desire.  After all, the number of music fans with iPods is growing.
+Ranking pertinenza: 69  
+Ranking sentimento: 34  
+Sentiment analyzer: Vader 
+valore_sentimento = 0.214
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ranking_finale:  53
+Categoria: Cd e Vynil, Nome del prodotto : Supernatural 
+Autore recensione: Kristin
+Testo recensione: I think that this is a great cd.  I read in another review that Santana should not have begun mixing hip-hop into his music...  I think that it was a great move for Santana.  It's a new sound that a lot of people like.  Santana was great before, and he's just as good now.  A good artist needs  to do some changing sometimes... he did.  Even though he is using some  hip-hop on his new album, you can also hear his great guitar skills.
+Ranking pertinenza: 84  
+Ranking sentimento: 28  
+Sentiment analyzer: Vader 
+valore_sentimento = 0.243
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ranking_finale:  54
+Categoria: Cd e Vynil, Nome del prodotto : Hide 'em in Your Heart Vol. 1 
+Autore recensione: Katie
+Testo recensione: My mom played these songs for us when we were little and we'd sing them constantly.  Even today when I read a scripture that was on this CD, the song is still in my head to help me remember.  Now, I have a daughter of my own and I will be teaching her to sing these scriptures as well!  I would highly recommend this CD to any parent wanting to teach their children the Word of God.
+Ranking pertinenza: 39  
+Ranking sentimento: 61  
+Sentiment analyzer: Vader 
+valore_sentimento = 0.147
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ranking_finale:  55
+Categoria: Movies and TV, Nome del prodotto : Hard Times 
+Autore recensione: Perry Stalsis
+Testo recensione: Great film about personal honor and the warrior spirit -- in a world where no one else exhibits any. The fighter does what he has to do, what he can do -- as well as he can, as long as he can, willing to sacrifice what he must to succeed. This is warrior spirit and personal honor, which can also be seen in "The thirteenth Warrior," another much misunderstood film. Now that hard times are upon us, more of us should be watching movies like this for inspiration!
+Ranking pertinenza: 100  
+Ranking sentimento: 24  
+Sentiment analyzer: Vader 
+valore_sentimento = 0.25
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ranking_finale:  56
+Categoria: Movies and TV, Nome del prodotto : Jesus VHS 
+Autore recensione: frmgirl
+Testo recensione: We bought the dvd to replace a vhs that had wore out.  An extremely well done movie on the life of Jesus Christ.  All the words are taken from the book of Luke, a new testament book of the Bible.  We watch it several times a year, especially around Easter and Christmas.  My fifteen year old said it is still as moving as the first time she watched it.
+Ranking pertinenza: 26  
+Ranking sentimento: 97  
+Sentiment analyzer: Vader 
+valore_sentimento = 0.034
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ranking_finale:  57
+Categoria: Movies and TV, Nome del prodotto : Resident Evil: Apocalypse 
+Autore recensione: R. Parks
+Testo recensione: I saw this movie twice in theaters. I would have seen it again if it weren't for my wife. I'm not a big RE fan. I am a zombie movie fan. I was very happy to see one for our generation. Game fans should realize that games rarely transfer well to movie.  It's like reading a book right before seeing the movie. The movie is neveras good as the book...or that is how we see it. I really love the movie. I do hope there is an unrated version. maybe get a little more action.
+Ranking pertinenza: 64  
+Ranking sentimento: 43  
+Sentiment analyzer: Vader 
+valore_sentimento = 0.194
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ranking_finale:  58
+Categoria: Movies and TV, Nome del prodotto : Let's Go Guang! Chinese for Children, Vol. 1 - Meet Guang, the Chinese Dragon | Multimedia Learning Kit 
+Autore recensione: G. Jones
+Testo recensione: The whole DVD teaches about 40 very basic words, my 4 year old can learn all that in half day. If you are looking for a movie for your kid, or learn a few words for fun, that's ok, the book and DVD are in good quality. If you want your kid to lean Chinese seriously, go find something else.  $50 for 40 words? It's not worthy.
+Ranking pertinenza: 34  
+Ranking sentimento: 82  
+Sentiment analyzer: Vader 
+valore_sentimento = 0.102
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ranking_finale:  59
+Categoria: Cd e Vynil, Nome del prodotto : Comatose 
+Autore recensione: Evan M. Vickers
+Testo recensione: I wanted to like this CD. But let's face it, after the first 2 songs it all just starts to sound cloned. Is this what a good album is supposed to sound like? I remember when every Skillet track had a unique sound, but alas, those days are gone.  If you like music that all sounds the same as the last track, this is a great CD for you. Otherwise purchase the first, second, and last track by themselves. They are really the only tracks that matter.
+Ranking pertinenza: 60  
+Ranking sentimento: 47  
+Sentiment analyzer: Vader 
+valore_sentimento = 0.186
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ranking_finale:  60
+Categoria: Cd e Vynil, Nome del prodotto : Ram 
+Autore recensione: Alvaro Montalva
+Testo recensione: The RAM Deluxed Book Edition (4CD+1DVD) is an absolute deluxe edition, but the DVD is not as good as the rest of the things included in the box. The recordings are incredibly good, even the "Thrillinton" CD -Paul's first attempt of recording with an orchestra I ha ve to say that the other CD's are awesome. I think this shows Paul at his best, but I'm still waiting for "Wings Over America" Deluxe Edition. I strongly recommend this Deluxe Edition, although I was a bit disappointed with the DVD.
+Ranking pertinenza: 86  
+Ranking sentimento: 33  
+Sentiment analyzer: Vader 
+valore_sentimento = 0.219
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ranking_finale:  61
+Categoria: Movies and TV, Nome del prodotto : Iron Eagle 
+Autore recensione: john thomas
+Testo recensione: This came out I think around the time time as Top Gun.  And was overshadowed by it.  You just have to watch the movie.  It's good on it's ow.  You just have to tell yourself it's just a movie.  Because most of the plot is unbelievable,  The acting by Lou Gossett Jr. is good.  And I just watched Executive Decision yesterday.  And David Suchet is a good as a terrorist.
+Ranking pertinenza: 49  
+Ranking sentimento: 59  
+Sentiment analyzer: Vader 
+valore_sentimento = 0.149
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ranking_finale:  62
+Categoria: Movies and TV, Nome del prodotto : Joseph VHS 
+Autore recensione: Inspector Q
+Testo recensione: If you gave this a high rating. It was for being a great HOLLYWOOD Production.. If you read the BIBLE you will find out Joseph was quite the opposite. It's in a small part a Christian movie. I can't see God pleased with exploiting sex scenes. If the Hollywood director when by the bible it would have raved reviews. It goes to show you how many BIBLE read the bible and how many never have opened one, going by all this Five star ratings.
+Ranking pertinenza: 32  
+Ranking sentimento: 95  
+Sentiment analyzer: Vader 
+valore_sentimento = 0.045
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ranking_finale:  63
+Categoria: Cd e Vynil, Nome del prodotto : Styx:  Return to Paradise VHS 
+Autore recensione: M. A. Echandy
+Testo recensione: I RECENTLY VIEWED MY COPY OF "RETURN TO PARADISE" AND ONE WORD COMES TO MIND......."AWESOME!"  IT'S LIKE YOUR AT THE CONCERT WITH THE BEST SEAT IN THE HOUSE.  I'VE SEEN STYX SEVERAL TIMES IN CONCERT AND THIS DVD BRINGS BACK A LOT OF REALLY GOOD MEMORIES.  THE ONLY THING IN MY OPINION THAT WAS WRONG WITH THE CONCERT IS THAT IT DIDN'T INCLUDE "DEAR JOHN" FROM THE CD VERSION OF THE CONCERT.  OH WELL, I GUESS YOU CAN'T HAVE EVERYTHING.  IT'S STILL AN AWESOME SHOW, DON'T MISS IT.
+Ranking pertinenza: 85  
+Ranking sentimento: 36  
+Sentiment analyzer: Vader 
+valore_sentimento = 0.207
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ranking_finale:  64
+Categoria: Cd e Vynil, Nome del prodotto : The Happiest Baby on the Block 
+Autore recensione: urwink
+Testo recensione: This is good info - same basic stuff as in the book just not as in depth.  It is good for showing you the 5 techniques used to calm a baby however I don't know if you need this if you have read the book.  I would just pick one or the other.
+Ranking pertinenza: 48  
+Ranking sentimento: 65  
+Sentiment analyzer: Vader 
+valore_sentimento = 0.139
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ranking_finale:  65
+Categoria: Cd e Vynil, Nome del prodotto : John Fogerty: Premonition 
+Autore recensione: Steve Moeller
+Testo recensione: If you like John Fogerty or just totally hot rock and roll this DVD is for you. I work out to it all the time and never get tired of it. John is at his charming best, the sound quality is unbelievably great, not the mushy sound you find in many live concert videos. The seperation is excellent. You can hear (and sing) every word. There is not a lot of fancy staging or camera work, just totally hot rock and roll from one fo the top artists of the genre. John seems to be getting better with age.
+Ranking pertinenza: 98  
+Ranking sentimento: 32  
+Sentiment analyzer: Vader 
+valore_sentimento = 0.22
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ranking_finale:  66
+Categoria: Cd e Vynil, Nome del prodotto : The Happiest Baby on the Block 
+Autore recensione: MinimalistMom
+Testo recensione: I have limited time to read all the baby books I should before my first one arrives. However, when I heard this highly rate book came in DVD format, I jumped at the opportunity- especially at this price! It is a fantastic DVD with 5 quick tips for soothing a crying child. It was helpful to see the doctor actually holding the baby, so you can practice the angle and method. This is a must have for all first time parents!
+Ranking pertinenza: 46  
+Ranking sentimento: 70  
+Sentiment analyzer: Vader 
+valore_sentimento = 0.131
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ranking_finale:  67
+Categoria: Cd e Vynil, Nome del prodotto : The Happiest Baby on the Block 
+Autore recensione: Jessa
+Testo recensione: Most of what's covered here isn't new anymore (the book was written early 2000s I think) and the information is covered in pretty much any baby parenting class, book, or video. I also found the book written in a pretty patronizing way, and it makes some serious assumptions about traditional parenting roles in a family (wives, make sure to appreciate your husband because being a breadwinner is hard!) Also the entire thing could have been covered in like 25 pages, not a couple hundred...
+Ranking pertinenza: 57  
+Ranking sentimento: 57  
+Sentiment analyzer: Vader 
+valore_sentimento = 0.151
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ranking_finale:  68
+Categoria: Movies and TV, Nome del prodotto : Steel Magnolias VHS 
+Autore recensione: melissa
+Testo recensione: There is a constant loud buzzing sound over the voices and sounds of the movie. I kept turning the sound up, but the words still cannot be heard. The buzz just got louder. I have requested a replacement. I will update my review once the new movie is received. Edit* The replacement dvd had the same problem with the sound. I didn't even bother returning it.
+Ranking pertinenza: 35  
+Ranking sentimento: 96  
+Sentiment analyzer: Vader 
+valore_sentimento = 0.036
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ranking_finale:  69
+Categoria: Movies and TV, Nome del prodotto : Taxi Driver 
+Autore recensione: Nick Deckard
+Testo recensione: Buy it!  Taxi Driver has never looked anywhere near this good. Or sounded! This is a great package - really nice heavy duty slipbook packaging with some great art cards as well which are asking to be framed.  Too many great bits for me to mention but one of my favourites is Scorsese himself as one of De Niro's passengers - unforgettable!  To UK/Euro buyers - this one works fine on UK/Euro blu-ray players and I think this package beats the UK edition - and is just as cheap.  Total bargain!
+Ranking pertinenza: 76  
+Ranking sentimento: 45  
+Sentiment analyzer: Vader 
+valore_sentimento = 0.19
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ranking_finale:  70
+Categoria: Cd e Vynil, Nome del prodotto : Sheryl Crow: Rockin' the Globe Live VHS 
+Autore recensione: M.J.J. Nuchelmans
+Testo recensione: Bought this DVD Yesterday. I play it in Dolby Stereo, Sound is not that well mixed. That said it is very entertaining and you can solve this sound problem if you juggle the bass and treble dials a bit. If compared to "The Eagles - Hell Freezes Over", this is noway near as well balanced, but it really captures the "Sheryl Crow Live" experience. There are much better mixed DVD's, but this is far from a bad buy. Buy it, you will not regret it.
+Ranking pertinenza: 52  
+Ranking sentimento: 66  
+Sentiment analyzer: Vader 
+valore_sentimento = 0.137
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ranking_finale:  71
+Categoria: Movies and TV, Nome del prodotto : The Avengers 
+Autore recensione: D. Dubei
+Testo recensione: i give this film two stars because although you have to question why three good actors such as these would even consider this script, they still acted well with the poor amount they got. but still, how could great actors such as these three accept such a terrible script? what were they thinking?
+Ranking pertinenza: 82  
+Ranking sentimento: 42  
+Sentiment analyzer: Vader 
+valore_sentimento = 0.195
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ranking_finale:  72
+Categoria: Movies and TV, Nome del prodotto : The Prince of Tides VHS 
+Autore recensione: Ann Parrish
+Testo recensione: I just read Pat's Conroy's new book, The Death of Santini.  I wanted to review the books and movies referred to in this new book. I had seen this movie many years ago but enjoyed it again in light of the new understanding I gained from the book. My only complaint was that I had to pay for it. I have Amazon Prime, this is a very old movie, and I felt it should have been on the "no charge for prime members" list.
+Ranking pertinenza: 43  
+Ranking sentimento: 81  
+Sentiment analyzer: Vader 
+valore_sentimento = 0.104
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ranking_finale:  73
+Categoria: Cd e Vynil, Nome del prodotto : Hide 'em in Your Heart Vol. 2 
+Autore recensione: mel Sprink
+Testo recensione: A young friend recommended this to me. I got it to help the preschoolers I work with learn scripture - it has been a little hard for 2 year olds but I am learning scripture in a painless way - I just don't memorize well
+Ranking pertinenza: 65  
+Ranking sentimento: 54  
+Sentiment analyzer: Vader 
+valore_sentimento = 0.162
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ranking_finale:  74
+Categoria: Cd e Vynil, Nome del prodotto : Bee Gees - One Night Only VHS 
+Autore recensione: Bob
+Testo recensione: If you like the BeeGees, this dvd is a must have. They perform nearly all of their biggest hits on this recording, and most are done just like the originals. The sound and video are very well done, making you feel like you are right there.
+Ranking pertinenza: 80  
+Ranking sentimento: 44  
+Sentiment analyzer: Vader 
+valore_sentimento = 0.191
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ranking_finale:  75
+Categoria: Cd e Vynil, Nome del prodotto : Last of a Dyin' Breed: Fanpack 
+Autore recensione: High Note
+Testo recensione: It appears that Skynyrd has moved in another direction since the passing of Billy Powell, and it's a bad decision. This recording doesn't sound anything like the bands previous efforts. It sounds like they've gone "metal". Johnny's vocals don't growl, the lyrics are lame, and the volume is amped up so much it sounds like a jumbled mess which muffles the harmony vocals. This is the worst LS effort I've ever heard.
+Ranking pertinenza: 40  
+Ranking sentimento: 88  
+Sentiment analyzer: Vader 
+valore_sentimento = 0.089
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ranking_finale:  76
+Categoria: Movies and TV, Nome del prodotto : Joseph VHS 
+Autore recensione: Benjamin Dean
+Testo recensione: Great Bible movie, I personally believe after watching quite a few Bible movies like Abraham, David, Samson and Delilah, Jeremiah, the Ten Commandments, and Solomon, that this is the most accurate live-action Bible created. I watched this when I was 5 and I still watch it 15 years later. There is a bit of violence, by that's just how the story is. This isn't bloody, and the Joseph-Potiphar's Wife scenes aren't for kids, but besides that, this is great.
+Ranking pertinenza: 62  
+Ranking sentimento: 60  
+Sentiment analyzer: Vader 
+valore_sentimento = 0.148
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ranking_finale:  77
+Categoria: Cd e Vynil, Nome del prodotto : Hotel California 
+Autore recensione: mike
+Testo recensione: I bought this album because I love the sound of a record and the music. Unfortunately just like 3 other records I have recently purchased this one skips right out of the cover, played it one time and it skips. I have a brand new turntable. If it did not start to skip I would give it 5 stars.
+Ranking pertinenza: 56  
+Ranking sentimento: 67  
+Sentiment analyzer: Vader 
+valore_sentimento = 0.137
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ranking_finale:  78
+Categoria: Cd e Vynil, Nome del prodotto : Styx:  Return to Paradise VHS 
+Autore recensione: Amy Wornom
+Testo recensione: This DVD is not real great sounding, given that it was recorded before the full scale digital recording revolution took place!  The music sounds fair but needs to be upgraded to digital quality with re-mixing the original tapes and video!  Other than that the concert it self isn't much to watch, to much power tripping for the old styx leader of the band!!!
+Ranking pertinenza: 45  
+Ranking sentimento: 91  
+Sentiment analyzer: Vader 
+valore_sentimento = 0.085
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ranking_finale:  79
+Categoria: Cd e Vynil, Nome del prodotto : Stevie Nicks - Live at Red Rocks 1987  VHS 
+Autore recensione: RhiannonJB@Excite.com
+Testo recensione: I beleive that this video is a must have for any serious Stevie fan.  Just popping this tape into the VCR and seeing the opening scene of Stevie's plane flying over Red Rocks and the effect of her voice echoing through the  mountains is enough to give me goosebumps.  This is one of my favorite  videos ever.  The visual effects/settings are out of this world. A definite  must have for anyone who has ever said "Wow!" over Stevie.
+Ranking pertinenza: 61  
+Ranking sentimento: 68  
+Sentiment analyzer: Vader 
+valore_sentimento = 0.134
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ranking_finale:  80
+Categoria: Movies and TV, Nome del prodotto : Resident Evil: Apocalypse 
+Autore recensione: Roman Numeral
+Testo recensione: Ok, what horror movie has a good script??? This is one of the "good" horror game-based movies I've seen, yet this falls short on revealing game antics. For those that have fans of the game for more than 6 years, will be dissapointed, yet will respect it for being Resident Evil, itself. The game series is "perfect" compared to the movie. This fairly deserves a 3.8/5. Recommended for any Resident Evil fan.
+Ranking pertinenza: 90  
+Ranking sentimento: 48  
+Sentiment analyzer: Vader 
+valore_sentimento = 0.181
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ranking_finale:  81
+Categoria: Cd e Vynil, Nome del prodotto : I Love Toy Trains, Part 4 VHS 
+Autore recensione: Dennis Beezley
+Testo recensione: I have no doubt that this is a wonderful video for kids because my own like it so much that I could never return it. But the sound quality is so poor that I cannot be in the same room with it! If you ever bought a video from a street peddler with sound quality this bad, you'd demand your money back. The volume jumps, there's hissing and popping and the voices sound like they're yelling up a well....I'm thinking they may have knocked this one out too quickly.
+Ranking pertinenza: 51  
+Ranking sentimento: 90  
+Sentiment analyzer: Vader 
+valore_sentimento = 0.086
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ranking_finale:  82
+Categoria: Movies and TV, Nome del prodotto : Into Thin Air:Death on Everest VHS 
+Autore recensione: Scott McNicholas
+Testo recensione: After reading the book I was looking forward to something so much better in terms of production and script. In NO WAY does this 'made for TV-ish' film do the Jon Krakauer book justice in any way. Read the book (Into thin air), skip the movie.
+Ranking pertinenza: 63  
+Ranking sentimento: 73  
+Sentiment analyzer: Vader 
+valore_sentimento = 0.125
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ranking_finale:  83
+Categoria: Movies and TV, Nome del prodotto : The Prince of Tides VHS 
+Autore recensione: Lakeside2006
+Testo recensione: Rereading this wonderful book, ran out of time for my book group, so watched the movie.  Good, but not as good as the book.
+Ranking pertinenza: 81  
+Ranking sentimento: 58  
+Sentiment analyzer: Vader 
+valore_sentimento = 0.151
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ranking_finale:  84
+Categoria: Cd e Vynil, Nome del prodotto : Ziggy Stardust &amp; The Spiders From Mars - The Motion Picture VHS 
+Autore recensione: Eliphas Levi
+Testo recensione: This is a classic film that, alas, has not aged well. Unlike the double-vinyl release of the same show, this DVD rendering sounds like it was recorded thorugh a telephone. The DVD is, in fact, an excellent document of historical stuffs, but it suffers as a source of entertainment.  The sound is simply terrible (although dated, one would think better sound could be mixed in here).  Purchase only if you are a die-hard Bowie fan (like myself).  If you don't know Bowie, don't start here!
+Ranking pertinenza: 96  
+Ranking sentimento: 50  
+Sentiment analyzer: Vader 
+valore_sentimento = 0.174
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ranking_finale:  85
+Categoria: Cd e Vynil, Nome del prodotto : Table Time for Tots Children VHS 
+Autore recensione: Just Mike
+Testo recensione: I just didn't 'get' this. Was there any back story that I missed? Its about kids who come down with this ?virus? and start killing the adults in various gruesome ways. There didn't seem to be any point. Whoever made this movie simply wanted to showcase the art of gruesome deaths on screen? A good horror movie needs a good story to back up the special effects. And the occasional moody shot of gaunt trees in winter doesn't cut it either. Just not a good horror movie.
+Ranking pertinenza: 68  
+Ranking sentimento: 74  
+Sentiment analyzer: Vader 
+valore_sentimento = 0.125
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ranking_finale:  86
+Categoria: Movies and TV, Nome del prodotto : Into Thin Air:Death on Everest VHS 
+Autore recensione: Tank
+Testo recensione: I won't bother to describe all the ways that this movie is inaccurate. The book, "Into Thin Air" by John Krakour is excellent. I had hoped that this video would be a good follow-up to reading the book, but instead it is just a poorly made, inaccurate video. Read the book, forget this video
+Ranking pertinenza: 73  
+Ranking sentimento: 72  
+Sentiment analyzer: Vader 
+valore_sentimento = 0.129
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ranking_finale:  87
+Categoria: Cd e Vynil, Nome del prodotto : Escape from Hell 
+Autore recensione: William E. Sanders
+Testo recensione: I order & watched this movie last year, and as far as Christian films go, I personally have seen MUCH better-I can't explain it too well, except that the acting was just OK, and the film type they used felt home-movieish & amateurish.  The messages they were conveying were right on the money, tho. The special effects were good, tho, and the idea about the sign on top of the hospital was really clever.  Would I buy it again?  Hmm, probably not. It didn't give me chills once.
+Ranking pertinenza: 79  
+Ranking sentimento: 69  
+Sentiment analyzer: Vader 
+valore_sentimento = 0.134
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ranking_finale:  88
+Categoria: Cd e Vynil, Nome del prodotto : The Happiest Baby on the Block 
+Autore recensione: Kathleen
+Testo recensione: I purchased this DVD, along with the book, because my baby had colic.  After viewing, I tried just one of the tips and she responded immediately.  The DVD demonstrates the tips from the book on how to calm a newborn.  The DVD/book set has just become my standard new baby gift.
+Ranking pertinenza: 66  
+Ranking sentimento: 86  
+Sentiment analyzer: Vader 
+valore_sentimento = 0.096
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ranking_finale:  89
+Categoria: Cd e Vynil, Nome del prodotto : Yes - Live in Philadelphia 
+Autore recensione: Keugantic
+Testo recensione: The sound on this DVD reminds me of the worst recordings I have ever heard.  Yes was never in my mind all that interested in the quality of thier recordings.  Close to the edge comes to mind...Too bad, because I consider them to be among my favorites over the years.  I have seen them 3 times live and have never been disappointed with the quality of sound in person.  This item should be removed from the shelves for poor quality in sound
+Ranking pertinenza: 74  
+Ranking sentimento: 80  
+Sentiment analyzer: Vader 
+valore_sentimento = 0.111
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ranking_finale:  90
+Categoria: Movies and TV, Nome del prodotto : Fright Night 
+Autore recensione: Christina Sabo
+Testo recensione: THE PICTURE AND SOUND QUALITY IS GOOD. THE MOVIE ITSELF IS PRETTY GOOD CONSIDERING, THOUGH IT'S NO EXORCIST. I AM UPSET ABOUT THE FORMAT. THE ONLY REASON I GOT THIS IS BECAUSE IT STATED IT WAS IN FULL SCREEN AND WIDE SCREEN FORMAT. IT ENDED UP BEING ONLY WIDE SCREEN FORMAT. I WANTED A FULL SCREEN FORMAT. I DON'T LIKE WIDE SCREEN FORMAT. OTHER THAN THE QUALITY OF THE MOVIE AND THE MOVIE ITSELF, I'M UNHAPPY WITH THE TRANSACTION.
+Ranking pertinenza: 71  
+Ranking sentimento: 84  
+Sentiment analyzer: Vader 
+valore_sentimento = 0.099
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ranking_finale:  91
+Categoria: Movies and TV, Nome del prodotto : The Prince of Tides VHS 
+Autore recensione: Beautifully Human
+Testo recensione: Babs and Nick Nolte are great in this movie! I ran across "The Prince of Tides" on television one day and knew immediately that I had to get this movie. I even read the book that its based on by Pat Conroy. A family, haunted by the ghosts of a painful secret, is in danger of losing everything. Their road to redemption lies in the telling of events hidden long ago. To get the full effect of this movie, read the book! Great experience, a movie you won't regret buying!
+Ranking pertinenza: 72  
+Ranking sentimento: 85  
+Sentiment analyzer: Vader 
+valore_sentimento = 0.097
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ranking_finale:  92
+Categoria: Movies and TV, Nome del prodotto : The Prince of Tides VHS 
+Autore recensione: NM Red
+Testo recensione: After just reading the book the movie was quite a disappointment.  Of course a movie cannot have the detail of the book, but a lot of the highlights I thought were overlooked.  It lacked telling the love the people had for their land and the sacrifice for it.  The movie was mostly just a love story, and there are so many of those that are just monotony rehashed.
+Ranking pertinenza: 99  
+Ranking sentimento: 62  
+Sentiment analyzer: Vader 
+valore_sentimento = 0.147
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ranking_finale:  93
+Categoria: Movies and TV, Nome del prodotto : Jesus The Christ: The movie version of The Visual Bible's Matthew 
+Autore recensione: Rev. John Stanton
+Testo recensione: This approach to Matthews's Gospel was superbly done.  The original text is used unexpurgated, but with the entire story acted out in full colour.  Anyone thinking of starting to take an interest in the Bible would be very well advised to buy this DVD.  And if you are sufficiently enthralled, there is a similar one based on the book of Acts.
+Ranking pertinenza: 87  
+Ranking sentimento: 71  
+Sentiment analyzer: Vader 
+valore_sentimento = 0.131
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ranking_finale:  94
+Categoria: Cd e Vynil, Nome del prodotto : Escape from Hell 
+Autore recensione: wdmhelen
+Testo recensione: This is a very low budget movie.  I wanted my teen to see it failed to keep her attention because it was so fake and in her words, "low budget".  It was a bit pricey as well.  The message was good, just think for the price of this movie, it could have had more realistic effects.
+Ranking pertinenza: 70  
+Ranking sentimento: 93  
+Sentiment analyzer: Vader 
+valore_sentimento = 0.075
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ranking_finale:  95
+Categoria: Movies and TV, Nome del prodotto : Steel Magnolias VHS 
+Autore recensione: A. Davis
+Testo recensione: We actually returned one of these DVDs for a replacement.  The second was no better than the first.  The volume quality was so poor that we had to keep the volume control on high to just barely hear the sound.  Video quality was also poor.
+Ranking pertinenza: 67  
+Ranking sentimento: 100  
+Sentiment analyzer: Vader 
+valore_sentimento = 0.0
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ranking_finale:  96
+Categoria: Movies and TV, Nome del prodotto : Resident Evil: Apocalypse 
+Autore recensione: Amazon Customer
+Testo recensione: By now you probably know the story of Resident Evil.  So, I'll just get right to the review.  It was a decent horror/action thriller with some fun.  No, it is not a great flick in acting but who cares.  You just come to see zombies getting blown up and buckets of blood.  Although the gore is not all that much for a horror film, it's about right for this.  Just don't think too much at this movie and you might enjoy it.
+Ranking pertinenza: 89  
+Ranking sentimento: 77  
+Sentiment analyzer: Vader 
+valore_sentimento = 0.121
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ranking_finale:  97
+Categoria: Cd e Vynil, Nome del prodotto : Ram 
+Autore recensione: M. Rife
+Testo recensione: I have listened to most ofMaccas records with the exception of Ram. I purchased the remastered release and I must say half way through the disc I was hooked. The music is both loud and mellow and at times I can hear the unmistakable influence of the Beach Boys, well it is no secret that both Paul and Brian Wilson had a mutual respect for one another.  This is a fine recording and for the McCartney fan do yourself an enormous Faber and get yourself a copy!
+Ranking pertinenza: 83  
+Ranking sentimento: 83  
+Sentiment analyzer: Vader 
+valore_sentimento = 0.102
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ranking_finale:  98
+Categoria: Movies and TV, Nome del prodotto : The Seventh Sign 
+Autore recensione: nobody
+Testo recensione: one of the worste movie of all time. senseless script, overweight actresses, no budget FX, demi moore looks like a trailer camp bumer and yet she was choosen to save the universe. zero. the bible is used to explain the script for 1.5 hour and then, chazaaam ho after all little jesus changed his mind, the end of the world is for some other day. big laugh
+Ranking pertinenza: 94  
+Ranking sentimento: 76  
+Sentiment analyzer: Vader 
+valore_sentimento = 0.122
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ranking_finale:  99
+Categoria: Cd e Vynil, Nome del prodotto : Escape from Hell 
+Autore recensione: Brandy
+Testo recensione: For as much hype as there was about this movie, it was not as good as I expected. Actors did a fair job with acting. I don't know how old the movie is, but effects in it weren't good either. Good plot, it was just not done very good. Sorry I spent the money, but thats the only way to find out.
+Ranking pertinenza: 78  
+Ranking sentimento: 98  
+Sentiment analyzer: Vader 
+valore_sentimento = 0.023
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Ranking_finale:  100
+Categoria: Cd e Vynil, Nome del prodotto : Last of a Dyin' Breed: Fanpack 
+Autore recensione: Chris Francz
+Testo recensione: I don't know what to make of this. I know this has a lot of the Street Survivors line-up but the songs and production leave me feeling like I just listened to a Nickelback record. The attitude and laid back bluesy swagger have been replaced by a modern rock (with a tinge of metal) sound. While I was listening to this it just didn't feel like I was listening to a Lynyrd Skynyrd record.
+Ranking pertinenza: 95  
+Ranking sentimento: 94  
+Sentiment analyzer: Vader 
+valore_sentimento = 0.063
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
