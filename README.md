@@ -98,10 +98,10 @@ $$ DCG_{p} = rel_{1}+\sum_{i=2}^{p}{rel_{i} \over log_{2}i} $$
 
 and plotted the following graphs 
 
-![DCG using Tf_IDF](https://github.com/flitz99/Progetto_gestione/blob/main/Benchmark/DCG_measures.png)
+![DCG using Tf_IDF](https://github.com/flitz99/Progetto_gestione/blob/main/Benchmark_folder/DCG_measures.png)
 
 
-![DCG using BM25](https://github.com/flitz99/Progetto_gestione/blob/main/Benchmark/DCG_measures_BM25F.png)
+![DCG using BM25](https://github.com/flitz99/Progetto_gestione/blob/main/Benchmark_folder/DCG_measures_BM25F.png)
 
 then we proceeded to calculate NDCG 
 
@@ -109,6 +109,6 @@ $$ NDCG_{p} = { DCG_{p} \over IDCG_{p} } $$
 
 IDCG= ideal DCG
 
-![NDCG using Tf_IDF](https://github.com/flitz99/Progetto_gestione/blob/main/Benchmark/NDCG_measures.png)
+![NDCG using Tf_IDF](https://github.com/flitz99/Progetto_gestione/blob/main/Benchmark_folder/NDCG_measures.png)
 
-![NDCG using BM25](https://github.com/flitz99/Progetto_gestione/blob/main/Benchmark/NDCG_measures_BM25F.png)
+![NDCG using BM25](https://github.com/flitz99/Progetto_gestione/blob/main/Benchmark_folder/NDCG_measures_BM25F.png)
